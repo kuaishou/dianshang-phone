@@ -1,0 +1,217 @@
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #ffffff;
+
+}
+
+.index .login{
+    height: 2.67rem;
+    width: 10rem;
+    line-height: 2.67rem;
+    text-align: center;
+    font-size: 0.61rem;
+    color: #5a5a5a;
+    margin: 0;
+    letter-spacing: 30px;
+    padding-left: 30px;
+}
+
+/*boostrap原始样式修改*/
+.index .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #ffffff;
+    cursor: default;
+    background-color:#1ca0e1;
+    border:none;
+    border-bottom-color:#1ca0e1;
+}
+.index .nav-tabs > li > a {
+    margin-right: 0;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.index .nav > li > a {
+    position: relative;
+    display: block;
+    padding:0;
+}
+
+
+
+.index .login-nav{
+    width: 10rem;
+    height: 1.2rem;
+    padding: 0 0.8rem;
+    border: none;
+    margin-bottom: 0.67rem;
+}
+
+.index .login-nav li{
+    width: 4.2rem;
+    height: 1.2rem;
+    border: 2px solid #1ca0e1;
+    line-height: 1.2rem;
+    font-size: 0.48rem;
+    text-align: center;
+
+}
+.index .login-nav li a{
+    width: 4.12rem;
+    height: 1.12rem;
+    line-height: 1.1rem;
+    font-size: 0.48rem;
+    text-align: center;
+    border: none;
+}
+.index .login-nav .login-navbtl{
+    border-radius: 6px 0px 0px 6px;
+}
+.index .login-nav .login-navbtl a{
+    border-radius: 4px 0px 0px 4px;
+}
+.index .login-nav .login-navbtr{
+    border-radius: 0px 6px 6px 0px;
+}
+.index .login-nav .login-navbtr a{
+    border-radius: 0px 4px 4px 0px;
+}
+
+.index .tab-content{
+    width: 10rem;
+    padding: 0 0.8rem;
+
+}
+.index .tab-content .login-user{
+    width: 8.4rem;
+    height: 1.73rem;
+    line-height: 1.73rem;
+    border-bottom: 2px solid #a5a5a5;
+
+}
+.index .tab-content .login-user label{
+    float: left;
+    width: 1.6rem;
+    text-align: center;
+    margin: 0;
+}
+.index .tab-content .login-user label img{
+    height: 0.48rem;
+    width: 0.48rem;
+}
+.index .tab-content .login-user input{
+    float: left;
+    width: 6.27rem;
+    height: 1.66rem;
+    float: left;
+    line-height: 1.6rem;
+    font-size: 0.48rem;
+}
+
+.index .tab-content .login-user .paswordin{
+    width: 3.2rem;
+
+}
+.index .tab-content .login-user .pass{
+    width: 2.4rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #1e9fe1;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 0.37rem;
+    border: none;
+    margin-top: 0.56rem;
+
+}
+.index .tab-content .login-user .passagain{
+    width: 3.4rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #1e9fe1;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 0.37rem;
+    border: none;
+    margin-top: 0.56rem;
+    /*float: left;
+    width: 4rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.37rem;
+    background-color: #ffffff;
+    color: #1e9fe1;*/
+}
+/*找回密码*/
+.index .backp{
+    width: 10rem;
+    padding: 0 0.9rem;
+    text-align: right;
+    font-size: 0.37rem;
+    color: #5a5a5a;
+}
+
+.index .backp a{
+    text-decoration: underline;
+    line-height: 0.8rem;
+}
+.index .backp .logingo{
+    color: #1e9fe1;
+}
+.index .btn{
+    width: 8.4rem;
+    height: 1.2rem;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-left: 0.8rem;
+    margin-top: 1.47rem;
+    background-color: #1e9fe1;
+    color: #ffffff;
+    font-size: 0.48rem;
+    box-shadow: #00142f;
+}
+
+.index .reger{
+    width: 10rem;
+    margin-top: 0.67rem;
+    text-align: center;
+    font-size: 0.48rem;
+    color: #5a5a5a;
+}
+.index .reger a{
+    text-decoration: underline;
+    line-height: 0.8rem;
+}
+
+.pw{
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+.pw label{
+    font-size: 0.37rem;
+    float: left;
+    width: 1.6rem;
+    text-align: center;
+    margin: 0;
+    color: #A5A5A5;
+}
+.pw span{
+    display: inline-block;
+    height: 0.8rem;
+    width: 2.08rem;
+    color: #ffffff;
+    line-height: 0.8rem;
+    font-size: 0.37rem;
+    text-align: center;
+}
+.pw .lo{
+    background-color: #bfbfbf;
+}
+.pw .mid{
+    background-color: #f39801;
+}
+.pw .height{
+    background-color: #eb6100;
+}
+

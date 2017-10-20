@@ -1,0 +1,170 @@
+
+
+.index{
+   width: 10rem;
+    margin:0 auto;
+    position: relative;
+    margin-bottom: 1.18rem;
+}
+
+.index .twonav ul{
+    margin-top: 0.4rem;
+    background-color: #ffffff;
+}
+.index .twonav ul li img{
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    overflow: hidden;
+    margin: 0 auto;
+   /* border-radius: 0.8rem;*/
+}
+
+.index .twonav ul li p{
+    line-height: 0.53rem;
+    font-size: 0.33rem;
+    color: #5a5a5a;
+    margin-top: 0.13rem;
+    margin-bottom: 0.13rem;
+   text-align: center;
+}
+.index .scenery{
+
+}
+.index  .scenery-top{
+    height: 0.8rem;
+    width: 10rem;
+    margin-top: 0.4rem;
+    background-color:#f2f2f2;
+    overflow: hidden;
+}
+.index  .scenery-top .scenery-title1{
+    display: block;
+    float: left;
+    height: 0.4rem;
+    width: 0.08rem;
+    background-color: #0231e3;
+    margin-top: 0.21rem;
+    margin-left: 0.26rem;
+    margin-right: 0.08rem;
+    border-radius: 0.26rem;
+}
+.index  .scenery-top .scenery-titlehotel{
+    display: block;
+    float: left;
+    height: 0.4rem;
+    width: 0.08rem;
+    background-color: #f57d03;
+    margin-top: 0.21rem;
+    margin-left: 0.26rem;
+    margin-right: 0.08rem;
+    border-radius: 0.26rem;
+}
+.index  .scenery-top .scenery-title2{
+    display:block;
+    float: left;
+    font-size: 0.32rem;
+    color: #5a5a5a;
+    line-height: 0.8rem;
+}
+.index  .scenery-top .scenery-more{
+    float: right;
+    margin-right: 0.27rem;
+    font-size: 0.24rem;
+    color: #5a5a5a;
+    line-height: 1rem;
+}
+
+.index .scenery-boday{
+    width: 10rem;
+}
+.index .scenery-boday .scenery-bodayl{
+    width: 6rem;
+    float: left;
+    margin-top: 0.27rem;
+    padding-left: 0.27rem;
+}
+
+.index .scenery-boday .scenery-bodayl img{
+    display: block;
+    width: 3.6rem;
+    height: 2.48rem;
+    float: left;
+}
+.index .scenery-boday .scenery-bodayl p{
+    float: left;
+    width: 2.1rem;
+    font-size: 0.37rem;
+    font-weight: 700;
+    color: #5a5a5a;
+   padding-left: 0.5rem;
+    margin-top: 0.4rem;
+}
+.index .scenery-boday .scenery-bodayr{
+    width: 4rem;
+    float: right;
+    margin-top: 0.27rem;
+    padding-right: 0.4rem;
+    text-align: right;
+}
+.index .scenery-boday .scenery-bodayr .money {
+    font-size: 0.48rem;
+    color: #f57d02;
+    margin-top: 0.27rem;
+    line-height: 0.53rem;
+    margin-right: 0.13rem;
+    font-weight: 600;
+}
+.index .scenery-boday .scenery-bodayr .money span{
+    font-size: 0.36rem;
+}
+.index .scenery-boday .scenery-bodayr .delete{
+    font-size: 0.32rem;
+    color: #B9B9B9;
+    margin-right: 0.13rem;
+    line-height: 0.53rem;
+    text-decoration: line-through;
+}
+.index .scenery-boday .scenery-bodayr .buy {
+    display: block;
+    float: right;
+    width: 2rem;
+    height: 0.66rem;
+    line-height: 0.66rem;
+    font-size: 0.27rem;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #f57d02;
+    color: #FFFFFF;
+}
+
+/*æ∆µÍΩÈ…‹*/
+.index .hotel-body{
+    padding-left: 0.27rem;
+    padding-right: 0.27rem;
+}
+.index .hotel-body ul li{
+    margin-top: 0.27rem;
+}
+.index .hotel-body ul li img{
+    display: block;
+    width: 3rem;
+    height: 2.04rem;
+}
+.index .hotel-body ul li p{
+    width: 3rem;
+    height: 0.67rem;
+    background-color: #f7a551;
+    color: #FFFFFF;
+    line-height: 0.67rem;
+    font-size: 0.32rem;
+    text-align: center;
+}
+
+
+
+
+
+
+

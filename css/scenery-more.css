@@ -1,0 +1,299 @@
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+}
+
+.index .scenery-moretitle{
+    width: 10rem;
+    height: 6.67rem;
+}
+.index .scenery-moretitle .scenery-moreimg{
+    width: 10rem;
+    height: 6.67rem;
+}
+
+.index .carousel-inner .item img{
+    height: 6.67rem;
+    width: 10rem;
+}
+
+
+
+/*地址*/
+.index .scenery-address{
+    width: 10rem;
+    height: 2.67rem;
+    color: #5a5a5a;
+    font-size: 0.37rem;
+    background-color:#f2f2f2;
+    padding-top: 0.27rem;
+  /*  padding-left: 0.56rem;*/
+}
+.index .scenery-address .scenery-addressx{
+    height: 2.13rem;
+    color: #333333;
+    background-color: #FFFFFF;
+    font-size: 0.37rem;
+   /* margin-top: 0.27rem;*/
+
+}
+.index .scenery-address .scenery-addressx .scenery-moretop{
+    width: 10rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    float: left;
+    font-size: 0.48rem;
+    padding-left: 0.53rem;
+}
+
+.index .scenery-address .scenery-addressx .scenery-moretname{
+    height: 1.2rem;
+    line-height: 1.2rem;
+    float: left;
+    font-size: 0.48rem;
+    left: 0.53rem;
+}
+
+.index .scenery-address .scenery-addressx .scenery-moreprice{
+    height: 1.2rem;
+    line-height: 1.2rem;
+    float: right;
+    right: 0.45rem;
+}
+.index .scenery-address .scenery-moreprice .price01{
+    font-size: 0.48rem;
+    color: #f57d02;
+    margin-right: 4px;
+    font-weight: 600;
+}
+.index .scenery-address .scenery-moreprice .priceup{
+    font-size: 0.27rem;
+    color: #FFFFFF;
+}
+
+.index .scenery-address .scenery-addressx .address{
+    width: 10rem;
+    height: 1rem;
+    line-height: 0.8rem;
+    padding-left: 0.53rem;
+    font-size: 0.37rem;
+}
+
+
+
+/*demo0*/
+
+
+.index .navbar{
+    width: 10rem;
+    background-color: #1e9fe1;
+    height: 1.07rem;
+    color: #ffffff;
+    min-height: 0;
+    margin-bottom: 0;
+    border: 0px solid transparent;
+}
+.index .navbar .container-fluid {
+    width: 10rem;
+    height: 1.07rem;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.index .navbar .container-fluid .navbar-collapse {
+    width: 10rem;
+    height: 1.07rem;
+    padding-right: 0;
+    padding-left: 0;
+   display: block;
+}
+
+.index .navbar li{
+    float: left;
+    width: 2.49rem;
+    height: 1.07rem;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    display: inline-block;
+    float: left;
+    width: 2.49rem;
+    height: 1.07rem;
+    padding: 0;
+    font-size: 0.35rem;
+    line-height: 1.07rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+     color: #ffffff;
+    height: 1.07rem;
+    background-color: #1e9fe1;
+    border-bottom: 0.08rem solid #f57d02;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*景区门票*/
+
+.index .menpiaobox{
+   /* width: 10rem;*/
+    height: 2.13rem;
+    border-top: 0.03rem solid #e3e5e5;
+
+}
+.index .menpiaobox .menpiaoboxl{
+    float: left;
+    width: 7rem;
+    height: 2.13rem;
+    padding-left: 0.54rem;
+}
+.index .menpiaobox .menpiaoboxl .piaolei{
+    height: 0.8rem;
+    line-height: 0.8rem;
+
+}
+.index .menpiaobox .menpiaoboxl .piaolei .piaolei1{
+    font-size: 0.38rem;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+.index .menpiaobox .menpiaoboxl .piaolei .piaolei2{
+
+    font-size: 0.35rem;
+    color: #5a5a5a;
+}
+.index .menpiaobox .menpiaoboxl .piaolei .piaolei3{
+    font-size: 0.38rem;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+
+.index .menpiaobox .menpiaoboxl .piao-money{
+    font-size: 0.48rem;
+    color: #f57d02;
+}
+.index .menpiaobox .menpiaoboxl .piao-oldmoney{
+    font-size: 0.32rem;
+    color: #b5b5b5;
+    text-decoration: line-through;
+}
+
+
+
+.index .menpiaobox .menpiaoboxr{
+    float: left;
+    height: 2.13rem;
+}
+.index .menpiaobox .menpiaoboxr a{
+    display: inline-block;
+    width: 1.34rem;
+    height: 0.67rem;
+    background-color: #f57d02;
+    text-align: center;
+    line-height: 0.67rem;
+    color: #ffffff;
+    font-size: 0.38rem;
+    font-weight: bold;
+    border-radius: 0.06rem;
+    margin-top: 0.67rem;
+    margin-left: 1rem;
+}
+
+/*订票须知*/
+.index .title{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-left: 0.54rem;
+    font-size: 0.35rem;
+    font-weight: bold;
+    color: #333333;
+}
+.index .yuzhimore {
+    padding-left:0.54rem;
+    padding-right:0.54rem;
+}
+.index .yuzhimore  p{
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
+}
+
+/*评论*/
+
+.pinglun{
+    border-top: 0.03rem solid #f2f2f2;
+    padding-left:0.54rem;
+    padding-right:0.54rem;
+}
+.pinglun .pingluntitle{
+    height: 1.07rem;
+    line-height: 1.07rem;
+    font-size: 0.35rem;
+
+
+}
+
+.pinglun .pingluntitle .pingluntitle1{
+    float: left;
+    width: 4.87rem;
+
+}
+.pinglun .pingluntitle .pingluntitle1 img{
+    height: 0.44rem;
+    width: 0.44rem;
+}
+
+.pinglun .pingluntitle .pingluntitle2{
+    float: left;
+
+}
+.pinglun .pingluncont{
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
+}
+.pinglun .pingluncon-time{
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
+    margin-left: 0.4rem;
+}
+.index .pinglun .pinglunimg{
+    padding-left: 0.27rem;
+}
+.index .pinglun .pinglunimg img{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+.index .pinglun .pinglun-add{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+    padding-left: 0.8rem;
+    border-top: 0.04rem dashed #f2f2f2 ;
+}
+.index .pinglun .pinglun-addback{
+    height: 1.07rem;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+    border-top: 0.04rem dashed #f2f2f2;
+}
+
+
+

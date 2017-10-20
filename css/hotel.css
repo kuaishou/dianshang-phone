@@ -1,0 +1,119 @@
+
+
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+}
+
+
+.index .scenery{
+    margin-bottom: 2rem;
+
+}
+.index  .scenery-top{
+    height: 0.8rem;
+    width: 10rem;
+    line-height: 0.8rem;
+    padding-left: 0.4rem;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.index .scenery-top .scenery-title2{
+    float: left;
+    font-size: 0.35rem;
+    color: #5a5a5a;
+    line-height: 0.8rem;
+    text-align: right;
+}
+.index .scenery-top .score{
+    width: 4rem;
+}
+.index .scenery-top .price{
+    width: 3.7rem;
+}
+
+.index .scenery-boday{
+    width: 10rem;
+    height: 2.48rem;
+    margin-top: 0.5rem;
+}
+.index .scenery-boday .scenery-bodayl{
+    width: 4rem;
+    float: left;
+    padding-left: 0.27rem;
+}
+
+.index .scenery-boday .scenery-bodayl img{
+    display: block;
+    width: 3.74rem;
+    height: 2.48rem;
+    float: left;
+}
+.index .scenery-boday .scenery-bodayr{
+    width: 6rem;
+    float: left;
+    padding-left: 0.4rem;
+    text-align: left;
+}
+
+.index .scenery-boday .scenery-bodayr .scenery-wordx{
+    border-top: 1px solid #f1f1f1;
+}
+.index .scenery-boday .scenery-bodayr .scenery-word1{
+    float: left;
+
+    padding-top: 6px;
+    font-size: 0.43rem;
+    font-weight: 700;
+    color: #333333;
+}
+.index .scenery-boday .scenery-bodayr .star{
+    float: right;
+    width: 1.34rem;
+    height: 0.36rem;
+    margin-right: 0.27rem;
+    margin-top: 0.2rem;
+}
+
+.index .scenery-boday .scenery-bodayr  .word4-left{
+    font-size: 0.32rem;
+    color: #5a5a5a;
+
+}
+.index .scenery-boday .scenery-bodayr .word4-left2{
+    font-size: 0.38rem;
+    color: #f57d02;
+
+}
+
+
+
+
+.index .scenery-boday .scenery-bodayr .scenery-word2{
+    font-size: 0.32rem;
+    color: #5a5a5a;
+}
+.index .scenery-boday .scenery-bodayr .scenery-word2 .star{
+
+}
+.index .scenery-boday .scenery-bodayr .scenery-word4{
+    width: 5.6rem;
+    text-align: right;
+    line-height: 0.4rem;
+    font-size: 0.32rem;
+}
+
+.index .scenery-boday .scenery-bodayr .scenery-word4 .word4-right{
+    float: right;
+}
+.index .scenery-boday .scenery-bodayr .scenery-word4 .scenery-word401{
+    font-size: 0.48rem;
+    color: #f57d02;
+}
+.index .scenery-boday .scenery-bodayr .scenery-word4 .scenery-word402{
+    font-size: 0.27rem;
+    color: #5a5a5a;
+    margin-right: 0.27rem;
+}

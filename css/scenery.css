@@ -1,0 +1,99 @@
+
+
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+}
+
+
+.index .scenery{
+
+}
+.index  .scenery-top{
+    height: 0.8rem;
+    width: 10rem;
+    padding-left: 0.4rem;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.index  .scenery-top .scenery-title2{
+    display:block;
+    float: left;
+    font-size: 0.32rem;
+    color: #5a5a5a;
+    line-height: 0.8rem;
+}
+
+.index .scenery-boday{
+    width: 10rem;
+    height: 2.48rem;
+    margin-top: 0.5rem;
+}
+.index .scenery-boday .scenery-bodayl{
+    width: 4rem;
+    float: left;
+    padding-left: 0.27rem;
+}
+
+.index .scenery-boday .scenery-bodayl img{
+    display: block;
+    width: 3.74rem;
+    height: 2.48rem;
+    float: left;
+}
+.index .scenery-boday .scenery-bodayr{
+    width: 6rem;
+    float: left;
+    padding-left: 0.4rem;
+    text-align: left;
+}
+.index .scenery-boday .scenery-bodayr .scenery-word1{
+    border-top: 1px solid #f1f1f1;
+    padding-top: 6px;
+    font-size: 0.43rem;
+    font-weight: 700;
+    color: #333333;
+    line-height: 0.53rem;
+
+}
+.index .scenery-boday .scenery-bodayr .scenery-word2{
+    font-size: 0.32rem;
+    color: #5a5a5a;
+}
+.index .scenery-boday .scenery-bodayr .scenery-word4{
+    width: 5.6rem;
+    text-align: right;
+    line-height: 0.4rem;
+
+}
+.index .scenery-boday .scenery-bodayr .scenery-word4 .scenery-word401{
+    font-size: 0.48rem;
+    color: #f57d02;
+}
+.index .scenery-boday .scenery-bodayr .scenery-word4 .scenery-word402{
+    font-size: 0.27rem;
+    color: #5a5a5a;
+    margin-right: 0.27rem;
+}
+
+/*特产列表*/
+
+.index .scenery-boday .scenery-bodayr .specialty{
+    font-size: 0.35rem;
+    color: #5a5a5a;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+
+}
+.index .scenery-boday .scenery-bodayr .specialty .specialtyl{
+    float: left;
+}
+.index .scenery-boday .scenery-bodayr .specialty .specialtyl .specialtyl2{
+    color: #F57D02;
+}
+.index .scenery-boday .scenery-bodayr .specialty .specialtyr{
+    float: right;
+    margin-right: 0.28rem;
+}

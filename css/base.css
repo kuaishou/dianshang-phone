@@ -1,0 +1,275 @@
+*,
+::after,
+::before{
+
+    padding: 0;
+    margin: 0;
+
+    /*清除ios默认的点击时产生的高亮区块   rgba(0,0,0,0)*/
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color:transparent;
+    /*定义盒子模型定义的宽度从边框计算*/
+    -webkit-box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Microsoft YaHei" , "sans-serif";
+    font-size: 14px;
+    line-height: 1;
+    color: #333;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+    background: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+A:active {
+    text-decoration: none;
+}
+input,textarea{
+    border:0;
+    outline: none;
+    resize: none;
+/*
+    /!*清楚ios浏览器默认的样式*!/
+    -webkit-appearance: none;*/
+}
+
+img{
+    vertical-align: middle;/*清除3px的bug*/
+    border: 0;
+}
+
+.clearfix::after,
+.clearfix::before{
+    clear: both;
+    content: '.';
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    display: block;
+}
+
+.row{
+  margin-left: 0;
+    margin-right: 0;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.index{
+    position: absolute;
+}
+
+.header {
+    width: 10rem;
+    height: 1.2rem;
+}
+.header .header_box {
+    position: relative;
+    width: 10rem;
+    height: 1.2rem;
+    background-color: #1e9fe2;
+}
+
+.header form {
+    width: 10rem;
+    height: 1.2rem;
+    padding-left: 0.44rem;
+    padding-right: 2.8rem;
+    position: relative;
+}
+.header form .icon_search {
+    width: 0.48rem;
+    height: 0.48rem;
+    display: block;
+    position: absolute;
+    top: 0.4rem;
+    left: 1.2rem;
+}
+.header form input {
+    background-color: #2292cc;
+    width: 6.67rem;
+    height: 0.67rem;;
+    border-radius: 0.67rem;
+    margin-top: 0.28rem;
+    padding-left: 1.74rem;
+    color: #ffffff;
+    font-size: 0.35rem;
+}
+.header .login {
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: right;
+    font-size: 0.35rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 1.47rem;
+}
+.header .line{
+    display: block;
+    width: 0.27rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-size: 0.35rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 1.2rem;
+}
+.header .register{
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: left;
+    font-size: 0.35rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+
+
+.topBar {
+    height: 1rem;;
+    width: 10rem;
+    background-color: #1e9fe1;
+    position: relative;
+    color: #ffffff;
+    font-size: 0.35rem;
+}
+.topBar .icon_back {
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+.topBar .top-title {
+    width: 10rem;
+    height: 1.2rem;
+    line-height: 1.02rem;
+    text-align: center;
+    font-size: 0.46rem;
+}
+
+/*.top{
+    width: 10rem;
+    height: 1rem;
+}*/
+
+
+/*底部导航栏*/
+
+
+.index .footer{
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    height: 1.18rem;
+    line-height: 1.18rem;
+    border-top: 0.02rem solid #ababab;
+    background-color: #ffffff;
+}
+.index .footer ul li{
+    float: left;
+    width: 2.5rem;
+    text-align: center;
+}
+.index .footer ul li a{
+    display:block;
+    float: left;
+    width: 2.5rem;
+    height: 1.18rem;
+    text-align: center;
+}
+.index .footer ul li img{
+    display: block;
+    margin: 0.14rem auto;
+    width: 0.54rem;
+    height: 0.54rem;
+}
+.index .footer ul li p{
+    margin-top: -0.5rem;
+}
+
+
+/*时间插件*/
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover{
+    /* background-image: url('../img/lock.png');*/
+    background-color: #eeeeee;
+    background-repeat:no-repeat;
+    background-size: 12px 15px;
+}
+
+
+/*轮播图修改*/
+.index .carousel-indicators {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+.index .carousel-indicators li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.index .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    background-color: #fff;
+}
+
+
+

@@ -1,0 +1,135 @@
+
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+}
+.index .head{
+    width: 10rem;
+    height: 4.74rem;
+    border-top: 1px solid #ffffff;
+    background: url("../images/order-more.jpg") center no-repeat;
+    background-size:10rem 4.74rem;
+    padding-top: 1.6rem;
+}
+.index .head .order-do{
+    width: 10rem;
+    height: 1.34rem;
+    padding: 0.27rem 0.94rem;
+    margin-top: 1.3rem;
+}
+.index .head .order-do .order-cancel{
+    float: left;
+    display: inline-block;
+    width: 3.44rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.43rem;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #178bc8;
+}
+.index .head .order-do .order-pay{
+    float: right;
+    display: inline-block;
+    width: 3.44rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.43rem;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #f57d02;
+}
+
+.index .head .order-agrain{
+    display:block;
+    width: 3.44rem;
+    height: 0.8rem;
+    margin: 1.4rem auto;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.43rem;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #178bc8;
+}
+
+
+
+
+
+.index .head .order-now{
+    width: 10rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.43rem;
+}
+
+.index .my-cont{
+    margin-top: 0.27rem;
+    margin-bottom: 2rem;
+}
+
+.index .my-cont .my-cont2 {
+    width: 10rem;
+    height: 2.67rem;
+    padding-left: 0.94rem;
+    padding-top: 0.4rem;
+    background-color: #ffffff;
+    font-size: 0.48rem;
+    color: #333333;
+    line-height: 0.8rem;
+}
+
+.index .my-cont .my-cont1{
+    width: 10rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    padding-left: 0.94rem;
+    background-color: #ffffff;
+    border-top: 0.02rem solid #d8d8d8;
+}
+.index .my-cont .my-cont1 .order-moneyn{
+    font-size: 0.48rem;
+    color: #333333;
+}
+.index .my-cont .my-cont1 .order-money{
+    font-size: 0.48rem;
+    color: #f57d02;
+}
+.index .my-cont .my-cont1 .order-label{
+    display: inline-block;
+    height: 1.6rem;
+    width: 2.27rem;
+    font-size: 0.43rem;
+    color: #5a5a5a;
+}
+.index .my-cont .my-cont1 .order-input{
+    display: inline-block;
+    height: 1.6rem;
+    width:6rem;
+    font-size: 0.43rem;
+    color: #333333;
+}
+
+
+
+.index .my-cont .order-title{
+    width: 10rem;
+    height: 1.34rem;
+    line-height: 1.34rem;
+    font-size: 0.38rem;
+    padding-left: 0.94rem;
+    background-color: #ffffff;
+    color: #5a5a5a;
+    margin-top: 0.27rem;
+}
+
+
+
+
+
+

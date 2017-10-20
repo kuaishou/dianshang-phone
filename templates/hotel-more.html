@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>吉首旅游-酒店详情</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/hotel-more.css"/>
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="index">
+    <header class="topBar clearfix">
+        <a href="hotel.html" class="icon_back"><</a>
+        <p class="top-title">酒店详情</p>
+    </header>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="../images/hotelbanner.jpg" alt="banner">
+                <div class="carousel-caption">
+                    吉天大酒店
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/hotelbanner.jpg" alt="轮播图">
+                <div class="carousel-caption">
+                    吉天大酒店
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/hotelbanner.jpg" alt="轮播图">
+                <div class="carousel-caption">
+                    吉天大酒店
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/hotelbanner.jpg" alt="轮播图">
+                <div class="carousel-caption">
+                    吉天大酒店
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="scenery-address">
+        <div class="scenery-addressx clearfix">
+            <div class="scenery-moretop clearfix">
+              <p class="scenery-moretname clearfix">吉天大酒店</p>
+              <div class="scenery-moreprice clearfix"><span class="price01">¥168</span><span class="priceup">起</span></div>
+            </div>
+           <p class="address">地址：湖南省湘西自治州首府吉首市区内的万溶江河畔</p>
+        </div>
+    </div>
+
+    <nav id="navbar-example" class="navbar navbar-default navbar-static" role="navigation">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse bs-js-navbar-scrollspy">
+             <ul class="nav navbar-nav">
+                 <li><a href="#menpiao">房间类型</a></li>
+                 <li><a href="#yuding">预定须知</a></li>
+                 <li><a href="#xiangqing">酒店设施</a></li>
+                 <li><a href="#pinglun">用户评论</a></li>
+             </ul>
+       </div>
+</div>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example" data-offset="0" style="height:12rem;width: 10rem; overflow:auto; position: relative; display: block;">
+    <h4 id="menpiao"></h4>
+    <div class="hotel-time">
+        <div class="hotel-time1">
+
+            <input type="text" class="form-control form-controlstart input1" id="startDate" data-date-start-date="0d">
+            <label for="startDate" class="labelr">入住</label>
+      <!--      <input type="text" class="input1" id="startDate" data-date-start-date="0d">-->
+            <!--<input type="date" class="input1" id="firstin" placeholder="2017-08-09">-->
+        </div>
+        <div class="hotel-time2">
+            <label for="firstout">离店</label>
+            <input type="text" class="form-control  form-controlend" id="endDate" data-date-start-date="0d">
+         <!--   <input type="date" class="input1" id="firstout" placeholder="2017-08-09">-->
+        </div>
+    </div>
+    <div class="menpiaobox">
+        <div class="menpiaoboxl">
+            <div class="piaolei">
+                <span class="piaolei1">豪华商务双人房</span>
+            </div>
+            <p class="piao-money">
+                ¥688
+            </p>
+            <p class="piao-oldmoney">
+                <span class="oldmoney1">市场价：</span>
+                <span class="oldmoney2">¥888</span>
+            </p>
+
+        </div>
+        <div class="menpiaoboxr">
+            <a href="reserve-hotel.html">预订</a>
+        </div>
+    </div>
+    <div class="menpiaobox">
+        <div class="menpiaoboxl">
+            <div class="piaolei">
+                <span class="piaolei1">豪华商务双人房</span>
+            </div>
+            <p class="piao-money">
+                ¥688
+            </p>
+            <p class="piao-oldmoney">
+                <span class="oldmoney1">市场价：</span>
+                <span class="oldmoney2">¥888</span>
+            </p>
+
+        </div>
+        <div class="menpiaoboxr">
+            <a href="reserve-hotel.html">预订</a>
+        </div>
+    </div>
+    <div class="menpiaobox">
+        <div class="menpiaoboxl">
+            <div class="piaolei">
+                <span class="piaolei1">豪华商务双人房</span>
+            </div>
+            <p class="piao-money">
+                ¥688
+            </p>
+            <p class="piao-oldmoney">
+                <span class="oldmoney1">市场价：</span>
+                <span class="oldmoney2">¥888</span>
+            </p>
+
+        </div>
+        <div class="menpiaoboxr">
+            <a href="reserve-hotel.html">预订</a>
+        </div>
+    </div>
+    <div class="menpiaobox">
+        <div class="menpiaoboxl">
+            <div class="piaolei">
+                <span class="piaolei1">豪华商务双人房</span>
+            </div>
+            <p class="piao-money">
+                ¥688
+            </p>
+            <p class="piao-oldmoney">
+                <span class="oldmoney1">市场价：</span>
+                <span class="oldmoney2">¥888</span>
+            </p>
+
+        </div>
+        <div class="menpiaoboxr">
+            <a href="reserve-hotel.html">预订</a>
+        </div>
+    </div>
+
+
+
+    <h4 id="yuding" class="title">预定须知</h4>
+    <div class="yuzhimore" >
+        <p>请提预定</p>
+        <p>免费人群：身高1.2米（不含）以下儿童、70（含）岁以上老人、本地军官持本人有效证件免票。</p>
+        <p>优惠人群：全日制在校大中小学生（凭学生证）、65-70岁老人（持本人有效证件）可至景区购买优惠票。</p>
+        <p>以上信息仅供参考，具体信息请以湘西矮寨大桥景区当天披露为准。</p>
+    </div>
+    <h4 id="xiangqing" class="title">酒店设施</h4>
+    <div class="yuzhimore" >
+        <p>酒店介绍</p>
+        <p>吉天大酒店地处吉首市乾州开发新区乾州大坡垅路汽车总站斜对面，毗邻湘西四大古城之一的“乾州古城”，距湘西州政府新办公大楼仅800米，距常吉高速、包茂高速、吉茶高速、张花高速等几大高速路口2公里，吉首火车站8公里，铜仁凤凰机场86公里。 高雅的品味、完美的服务、民族特色装修风格是酒店的特色。酒店拥有60多间客房，均配有电脑、LED电视并提供市话、中央空调、24小时热水等；酒店三楼多功能会议室设施先进，高清晰多媒体投影仪、无线话筒、高品质音响等设备一应俱全。 酒店一楼设有湘西特色中式餐厅，有大小豪华包房6个，营业面积4000多平方米，可同时容纳300人就餐，餐厅以中高档宴会为主，兼地方特色及风味家常菜。</p>
+        <p>配套设施</p>
+        <div class="peitao">
+            <span>√WiFi</span>
+            <span>√宽带</span>
+            <span>√停车服务</span>
+            <span>√吹风机</span>
+        </div>
+    </div>
+    <h4 id="pinglun" class="title">用户评论</h4>
+    <div class="pinglun">
+        <div class="pingluntitle">
+            <div class="pingluntitle1">
+                <img src="../images/people.png" alt="用户头像"/>
+                <span>李白</span>
+            </div>
+            <div class="pingluntitle2">
+                <span>评价</span>
+                <img src="../images/star5.jpg" alt="星级"/>
+            </div>
+
+        </div>
+        <p class="pingluncont">矮寨特大悬索桥位于湖南省湘西州吉首市矮寨镇境内，距吉首市区约20公里，是国家重点规划的8条高速公路之一,创造了四项世界第一</p>
+<p class="pingluncont">2017-9-28</p>
+
+
+
+
+    </div>
+    <div class="pinglun">
+        <div class="pingluntitle">
+            <div class="pingluntitle1">
+                <img src="../images/people.png" alt="用户头像"/>
+                <span>李白</span>
+            </div>
+            <div class="pingluntitle2">
+                <span>评价</span>
+                <img src="../images/star5.jpg" alt="星级"/>
+            </div>
+
+        </div>
+        <p class="pingluncont">矮寨特大悬索桥位于湖南省湘西州吉首市矮寨镇境内，距吉首市区约20公里，是国家重点规划的8条高速公路之一,创造了四项世界第一</p>
+        <div class="pinglunimg">
+            <img src="../images/pingjia1.jpg" alt="评论图"/>
+            <img src="../images/pingjia1.jpg" alt="评论图"/>
+        </div>
+
+        <p class="pingluncont">2017-9-28</p>
+
+    </div>
+
+</div>
+</div>
+
+<!--头部区域-->
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap-datepicker.zh-CN.min.js"></script>
+<script src="../js/index.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*input时间插件兼容*/
+        $('.form-controlstart').datepicker({
+            todayHighlight: true,
+            language: "zh-CN",
+            startDate:new Date()
+
+        }).on('changeDate', function(e) {
+            var newDate =$(".form-controlstart").datepicker("getDate");//获取
+            $(".form-controlend").datepicker("setStartDate", newDate).data('datepicker');//设置
+            $(".form-controlend").datepicker("setDate", newDate).data('datepicker');//设置
+            console.log(newDate);
+        }).data('datepicker');
+
+        $('.form-controlend').datepicker({
+            todayHighlight: true,
+            language: "zh-CN"
+
+        });
+
+        /*获取当前日期*/
+
+        var ddd = new Date();
+        var day =ddd.getDate();
+        var day1=ddd.getDate()+1;
+        if(ddd.getMonth()<10){
+            var month = ""+(ddd.getMonth()+1);
+        }
+
+        if(ddd.getDate()<10){
+            day = "0"+ddd.getDate();
+        }
+        if(day1<10){
+            day1 = "0"+day1;
+        }
+        var datew = ddd.getFullYear()+"-"+month+"-"+day;
+        var dateend= ddd.getFullYear()+"-"+month+"-"+day1;
+        var datew = datew.toString();
+        var dateend=dateend.toString();
+        $("#startDate").val(datew);
+        $("#endDate").val(dateend);
+    });
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

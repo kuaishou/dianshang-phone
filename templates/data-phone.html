@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>吉首旅游-修改手机号</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/my.css"/>
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="index indexdata">
+<header class="topBar clearfix">
+    <a href="my-data.html" class="icon_back"><</a>
+    <p class="top-title">修改手机号</p>
+</header>
+
+
+<form action="">
+    <div id="myTabContent" class="tab-content">
+        <div class="login-user">
+            <label for="firstin3">新手机号</label>
+            <input type="text" class="input1" id="firstin3" placeholder="新手机号">
+        </div>
+        <div class="login-user">
+            <label for="firstin4">验证码</label>
+            <input type="text" class="paswordin" id="firstin4" placeholder="验证码">
+            <input type="button" class="passagain" id="btn" value="发送验证码" />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-default btnadd">保存</button>
+
+
+</form>
+</body>
+<!--头部区域-->
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/index.js"></script>
+
+<script type="text/javascript">
+
+    var countdown=60;
+    $("#btn").click(function(){
+        var obj = $("#btn");
+        settime(obj);
+    })
+
+    function settime(obj) { //发送验证码倒计时
+
+        if (countdown == 0) {
+            obj.attr('disabled',false);
+            //obj.removeattr("disabled");
+            obj.val("发送验证码");
+            countdown = 60;
+            return;
+        } else {
+            obj.attr('disabled',true);
+            obj.val("(" + countdown + ")秒后重新发送");
+            countdown--;
+        }
+        setTimeout(function() {
+                    settime(obj) }
+                ,1000)
+    }
+</script>
+
+
+</html>

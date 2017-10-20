@@ -1,0 +1,185 @@
+
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+}
+
+.index .navbar{
+    width: 10rem;
+    height: 1.07rem;
+    background-color: #ffffff;
+    color: #5a5a5a;
+    min-height: 0;
+    margin-bottom: 0;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
+.index .navbar .container-fluid {
+    width: 10rem;
+    height: 1.07rem;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.index .navbar .container-fluid .navbar-collapse {
+    width: 10rem;
+    height: 1.07rem;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+}
+
+.index .navbar li{
+    float: left;
+    width: 2.49rem;
+    height: 1.07rem;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    display: inline-block;
+    float: left;
+    width: 2.49rem;
+    height: 1.07rem;
+    padding: 0;
+    font-size: 0.35rem;
+    line-height: 1.07rem;
+    text-align: center;
+    color: #5a5a5a;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    height: 1.07rem;
+    background-color: #ffffff;
+    color: #5a5a5a;
+    border-bottom: 0.08rem solid #f57d02;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*没有订单页面*/
+.index .order-no{
+    width: 10rem;
+    text-align: center;
+
+}
+.index .order-no img{
+    display: block;
+    width: 3.08rem;
+    height: 2.13rem;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+}
+.index .order-no p{
+    font-size: 0.45rem;
+    color: #5a5a5a;
+    margin-top: 0.87rem;
+
+}
+
+
+/*待评价*/
+.index .pingjia{
+    margin-top: 0.27rem;
+    width: 10rem;
+    margin-top: 0.27rem;
+    background-color: #ffffff;
+}
+.index .pingjia .pingjia-title {
+    width: 10rem;
+    height: 1.34rem;
+    padding-left: 0.44rem;
+    padding-right: 0.44rem;
+    font-size: 0.43rem;
+    line-height: 1.34rem;
+    border-bottom: 0.02rem solid #f2f2f2;
+}
+
+.index .pingjia .pingjia-title .hotel-icon{
+    display: block;
+    float: left;
+    margin-top: 0.42rem;
+    margin-right: 0.16rem;
+    width: 0.54rem;
+    height: 0.54rem;
+}
+.index .pingjia .pingjia-title .hotel-ping{
+    float: right;
+    color: #1E9FE2;
+}
+
+.index .pingjia .pingjia-cont{
+    height: 2.4rem;
+    width: 10rem;
+    padding-left: 0.44rem;
+    padding-right: 0.44rem;
+    font-size: 0.43rem;
+    border-bottom: 0.02rem solid #f2f2f2;
+}
+.index .pingjia .pingjia-cont .pingjia-cont1{
+    height: 1.07rem;
+    line-height: 1.07rem;
+    color: #5a5a5a;
+}
+.index .pingjia .pingjia-cont .pingjia-cont1 .pingjia-cont1l{
+    float: left;
+
+}
+.index .pingjia .pingjia-cont .pingjia-cont1 .pingjia-cont1r{
+    float: right;
+
+}
+.index .pingjia .pingjia-cont .pingjia-cont2{
+    font-size: 0.35rem;
+    color: #5a5a5a;
+}
+.index .pingjia .pingjia-cont .pingjia-cont3{
+    font-size: 0.35rem;
+    color: #5a5a5a;
+}
+.index .pingjia .pingjia-cont .pingjia-cont3 span{
+    margin-right: 0.27rem;
+
+}
+
+.index .pingjia .pingjia-footer{
+    width: 10rem;
+    height: 1.34rem;
+    padding-left: 0.44rem;
+    padding-right: 0.44rem;
+    font-size: 0.43rem;
+    line-height: 1.34rem;
+    border-bottom: 0.02rem solid #f2f2f2;
+}
+.index .pingjia .pingjia-footer .hotel-pingx {
+    float: right;
+    width: 2.14rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 0.24rem;
+    text-align: center;
+    border: 2px solid #b5b5b5 ;
+    border-radius: 6px;
+}
+.index .pingjia .pingjia-footer .hotel-buy{
+    color: #ffffff;
+    background-color: #ee7900;
+    border: none;
+}
+
+
+
+
+
+

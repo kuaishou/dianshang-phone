@@ -1,0 +1,256 @@
+
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+}
+.index .head{
+    width: 10rem;
+    height: 5.34rem;
+    padding-top: 1.2rem;
+    background: url("../images/mybg.jpg") center no-repeat;
+    background-size:10rem 5.34rem;
+}
+.index .head p{
+    width: 10rem;
+    text-align: center;
+    color: #fa8303;
+    font-size: 0.47rem;
+}
+.index .head img{
+    display: block;
+    width: 1.71rem;
+    height: 1.71rem;
+    margin: 0 auto;
+}
+
+.index .my-cont{
+    margin-top: 0.32rem;
+    margin-bottom: 2rem;
+}
+.index .my-cont .my-cont1 a{
+    display: block;
+    width: 10rem;
+    height: 1.34rem;
+    padding-left: 0.54rem;
+    padding-right: 0.54rem;
+    line-height: 1.34rem;
+    font-size: 0.43rem;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
+.index .my-cont .my-cont1 a .go{
+    float: right;
+}
+
+
+
+.index .my-cont .my-cont2 {
+    display: block;
+    width: 10rem;
+    height: 2.67rem;
+    margin-bottom: 0.27rem;
+    background-color: #ffffff;
+}
+.index .my-cont .my-cont2  ul{
+    margin-bottom: 0rem;
+}
+.index .my-cont .my-cont2  ul li{
+    float: left;
+    width: 2.5rem;
+    text-align: center;
+}
+.index .my-cont .my-cont2  ul li a{
+    position: relative;
+    display:block;
+    float: left;
+    width: 2.5rem;
+    height: 2.67rem;
+    text-align: center;
+}
+.index .my-cont .my-cont2  ul li a .nub{
+    position: absolute;
+    font-size: 0.27rem;
+    top: 0.74rem;
+    left: 1.42rem;
+    color: #ffffff;
+}
+
+
+
+.index .my-cont .my-cont2  ul li img{
+    display: block;
+    margin: 0.67rem auto;
+    width: 0.91rem;
+    height: 0.78rem;
+}
+.index .my-cont .my-cont2  ul li p{
+    font-size: 0.43rem;
+    color: #5a5a5a;
+    margin-top: -0.5rem;
+}
+
+/*个人资料页面*/
+
+.indexdata{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.indexdata .data{
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+.indexdata .data .datacont{
+    height: 1.6rem;
+    width: 10rem;
+    line-height: 1.6rem;
+    font-size: 0.37rem;
+    padding-left: 0.8rem;
+    padding-right: 0.4rem;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.indexdata .data .datacont .data-l{
+    float: left;
+    width: 2rem;
+    margin: 0;
+}
+.indexdata .data .datacont .data-r{
+    float: right;
+    margin: 0;
+}
+.indexdata .data .datacont .data-r a{
+   display: inline-block;
+}
+
+.indexdata .data .datacont .data-r .datago{
+    display: inline-block;
+    width: 0.5rem;
+}
+
+.indexdata .data .datacont .data-r .data-ch{
+    width: 3rem;
+    height: 1rem;
+    bottom: none;
+}
+
+
+
+.imgbox,.imgbox1
+{
+    float: left;
+    position: relative;
+    width: 1.33rem;
+    height: 1.33rem;
+    overflow: hidden;
+}
+.imgbox1{
+}
+
+
+.imgnum{
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.imgnum input,.imgnum1 input {
+    position: absolute;
+    width: 1.33rem;
+    height: 1.33rem;
+    opacity: 0;
+}
+.imgnum img,.imgnum1 img {
+    width: 1.33rem;
+    height: 1.33rem;
+}
+/*.close,
+.close1 {
+    color: red;
+    position: absolute;
+    left: 170px;
+    top: 0px;
+    display: none;
+}*/
+
+
+.index .tab-content .login-user{
+    width:10rem;
+    height: 1.73rem;
+    padding:  0 0.8rem;
+    line-height: 1.73rem;
+    border-bottom: 1px solid #f57d02;
+
+}
+.index .tab-content .login-user label{
+    float: left;
+    width: 1.6rem;
+    text-align: center;
+    font-size: 0.37rem;
+    color: #333333;
+    margin: 0;
+}
+.index .tab-content .login-user label img{
+    height: 0.48rem;
+    width: 0.48rem;
+}
+.index .tab-content .login-user input{
+    margin-left: 0.8rem;
+    width: 7.rem;
+    height: 1.66rem;
+    float: left;
+    line-height: 1.6rem;
+    font-size: 0.48rem;
+}
+
+.index .tab-content .login-user .paswordin{
+    width: 2rem;
+
+}
+.index .tab-content .login-user .pass{
+    width: 2.4rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #1e9fe1;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 0.37rem;
+    border: none;
+    margin-top: 0.56rem;
+
+}
+.index .tab-content .login-user .passagain{
+    width: 3.4rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #1e9fe1;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 0.37rem;
+    border: none;
+    margin-top: 0.56rem;
+    margin-left: 0.5rem;
+}
+
+
+.index form .btnadd {
+    display: block;
+    width: 8.4rem;
+    height: 1.2rem;
+    text-align: center;
+    background-color: #f57d02;
+    color: #ffffff;
+    margin: 1rem auto;
+    font-size: 0.48rem;
+    letter-spacing: 0.5rem;
+    border-radius: 6px;
+}
+
+
+
+

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>吉首旅游官网-修改地址</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/my.css"/>
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="index indexdata">
+
+<header class="topBar clearfix">
+    <a href="my.html" class="icon_back"><</a>
+    <p class="top-title">个人资料</p>
+</header>
+
+<div class="data">
+
+
+    <div class="datacont data-id">
+        <p class="data-l">用户ID</p>
+        <p class="data-r"><span>8888888</span> <span class="datago"> </span></p>
+    </div>
+
+    <div class="datacont data-phone">
+        <p class="data-l">手机号</p>
+        <p class="data-r"><a href="data-phone.html"><span>18575699825</span> <span class="datago"> > </span></a></p>
+    </div>
+    <div class="datacont data-email">
+        <p class="data-l">邮箱</p>
+        <p class="data-r"><a href="data-email.html"><span>947634673@qq.com</span> <span class="datago"> > </span></a></p>
+    </div>
+
+    <div class="datacont data-name">
+        <p class="data-l">昵称</p>
+        <p class="data-r"><a href="data-name.html"><span>萌萌哒</span> <span class="datago"> > </span></a></p>
+    </div>
+    <div class="datacont data-sex">
+        <p class="data-l">性别</p>
+        <p class="data-r">
+            <select class="data-ch" name="">
+                <option value="0">男</option>
+                <option value="1">女</option>
+            </select>
+            <span class="datago"> </span>
+
+        </p>
+
+      <!--  <p class="data-r"><a href=""><span>萌萌哒</span> <span class="datago"> > </span></a></p>-->
+    </div>
+    <div class="datacont data-pid">
+        <p class="data-l">身份证号</p>
+        <p class="data-r"><a href="data-pid.html"><span>411024199009248888</span> <span class="datago"> > </span></a></p>
+    </div>
+
+
+    <div class="datacont data-head">
+        <p class="data-l">上传头像</p>
+        <div class="data-r" id="img">
+          <div class="imgbox">
+              <div class="imgnum">
+                  <input type="file" class="filepath" accept="image/*" />
+                  <img src="../images/guider1.jpg" class="img1" />
+                  <img src="" class="img2" />
+              </div>
+           </div>
+            <span class="datago"> </span>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <ul>
+        <li><a href="../index.html"><img src="../images/home-click.jpg" alt="首页"/><p>首页</p></a></li>
+        <li><a href="my-order.html"><img src="../images/list.jpg" alt="首页"/><p>订单</p></a></li>
+        <li><a href="../index.html"><img src="../images/service.jpg" alt="首页"/><p>客服</p></a></li>
+        <li><a href="my.html"><img src="../images/my.jpg" alt="首页"/><p>我的</p></a></li>
+    </ul>
+</footer>
+
+
+
+<!--头部区域-->
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/index.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+        $(".filepath").on("change",function() {
+          /*  alert($('.imgbox').length);*/
+            var srcs = getObjectURL(this.files[0]);   //获取路径
+            $(this).nextAll(".img1").hide();   //this指的是input
+            $(this).nextAll(".img2").show();  //fireBUg查看第二次换图片不起做用
+        /*    $(this).nextAll('.close').show();  */ //this指的是input
+            $(this).nextAll(".img2").attr("src",srcs);    //this指的是input
+            $(this).val('');    //必须制空
+           /* $(".close").on("click",function() {
+                $(this).hide();     //this指的是span
+                $(this).nextAll(".img2").hide();
+                $(this).nextAll(".img1").show();
+            })*/
+        })
+    })
+
+    function getObjectURL(file) {
+        var url = null;
+        if (window.createObjectURL != undefined) {
+            url = window.createObjectURL(file)
+        } else if (window.URL != undefined) {
+            url = window.URL.createObjectURL(file)
+        } else if (window.webkitURL != undefined) {
+            url = window.webkitURL.createObjectURL(file)
+        }
+        return url
+    };
+
+    $(function() {
+        $("#img").on("change",".filepath1",function() {
+            //alert($('.imgbox1').length);
+            var srcs = getObjectURL(this.files[0]);   //获取路径
+            /*alert(srcs);*/
+            //this指的是input
+            /* $(this).nextAll(".img22").attr("src",srcs);    //this指的是input
+             $(this).nextAll(".img22").show();  //fireBUg查看第二次换图片不起做用*/
+            var htmlImg='<div class="imgbox1">'+
+                    '<div class="imgnum1">'+
+                    '<input type="file" class="filepath1" />'+
+                    '<img src="btn.png" class="img11" />'+
+                    '<img src="'+srcs+'" class="img22" />'+
+                    '</div>'+
+                    '</div>';
+
+            $(this).parent().parent().before(htmlImg);
+            $(this).val('');    //必须制空
+            $(this).parent().parent().prev().find(".img11").hide();   //this指的是input
+          /*  $(this).parent().parent().prev().find('.close1').show();*/
+
+            /*$(".close1").on("click",function() {
+                $(this).hide();     //this指的是span
+                $(this).nextAll(".img22").hide();
+                $(this).nextAll(".img11").show();
+                if($('.imgbox1').length>1){
+                    $(this).parent().parent().remove();
+                }
+
+            })*/
+        })
+    })
+
+</script>
+
+</body>
+</html>

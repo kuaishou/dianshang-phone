@@ -1,0 +1,535 @@
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+}
+.index .form{
+    width: 10rem;
+}
+.index .form .commodity{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    line-height: 1.6rem;
+    background-color: #ffffff;
+    font-size: 0.48rem;
+    color: #333333;
+}
+.index .form .hotel1{
+    width: 10rem;
+    height: 2.4rem;
+    padding-left: 0.94rem;
+    line-height: 0.6rem;
+    background-color: #ffffff;
+    font-size: 0.48rem;
+    color: #333333;
+}
+.index .form .hotel1 .hotel01{
+    line-height: 1rem;
+    font-size: 0.48rem;
+    color: #333333;
+}
+.index .form .hotel1 .hotel02{
+    line-height: 1rem;
+    font-size: 0.48rem;
+    color: #333333;
+    font-weight: 600;
+}
+.index .form .hotel1 .guidername{
+    line-height: 1rem;
+    font-size: 0.43rem;
+    color: #333333;
+}
+
+
+.index .form .form-group1{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    margin-top: 0.27rem;
+    background-color: #ffffff;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
+.index .form .form-groupguide{
+    width: 10rem;
+    height: 1.07rem;
+    line-height: 1.07rem;
+    padding-left: 0.94rem;
+    font-size: 0.37rem;
+    background-color: #ffffff;
+    border-top: 0.02rem solid #d9d9d9;
+}
+.index .form .form-groupguide .form-groupguideprice{
+    display: inline-block;
+    width: 2.4rem;
+    height: 1.07rem;
+    color: #333333;
+}
+
+.index .form .form-group1 .form-group1name{
+    display: inline-block;
+    width: 2.4rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    font-size: 0.43rem;
+    color: #333333;
+}
+.index .form .form-group1 .to{
+    font-size: 0.43rem;
+    color: #333333;
+    font-weight: bold;
+}
+.index .form .form-group1 .night{
+    font-size: 0.43rem;
+    color: #333333;
+    font-weight: bold;
+    float: right;
+    line-height: 1.6rem;
+    margin-right: 1.6rem;
+
+}
+.index .form .form-group1 .input1{
+    font-size: 0.43rem;
+    color: #f57d02;
+    font-weight: bold;
+}
+
+
+.index .form .form-group2{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    background-color: #ffffff;
+}
+.index .form .form-group2 .form-group2name{
+    float: left;
+    display: inline-block;
+    width: 2.4rem;
+    height: 1.58rem;
+    line-height: 1.6rem;
+    background-color: #ffffff;
+    font-size: 0.43rem;
+    color: #333333;
+
+}
+.index .form .form-group2 .pro-body-des-con{
+    float: left;
+    display:inline-block;
+    font-size: 0.36rem;
+    width: 1.34rem;
+    height: 1.6rem;
+}
+.index .form .form-group2 .pro-body-des-con span{
+    float: left;
+    display: inline-block;
+}
+
+.index .form .form-group2 .pro-body-des-con .jian{
+    width: 0.43rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    font-size: 0.6rem;.
+    background-color:#ffffff;
+    cursor: pointer;
+}
+.index .form .form-group2 .pro-body-des-con .jian1{
+    width: 0.43rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    font-size: 26px;
+    background-color:#ffffff;
+    cursor: pointer;
+}
+.index .form .form-group2 .pro-body-des-con .jian2{
+    width: 0.43rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    font-size: 26px;
+    background-color:#fff;
+    cursor: pointer;
+}
+.index .form .form-group2 .pro-body-des-con .shu11{
+    display:block;
+    width:1.28rem;
+    height: 0.27rem;
+    background-color:#fff;
+    text-align:center;
+}
+.index .form .form-group2 .pro-body-des-con .shu{
+    display:block;
+    width: 0.43rem;
+    height: 1.58rem;
+    line-height: 1.6rem;
+    text-align: center;
+    background-color:#fff;
+    color: #f57d02;
+}
+.index .form .form-group2 .pro-body-des-con .jia{
+    width: 0.43rem;
+    height: 1.58rem;
+    line-height: 1.6rem;
+    text-align: center;
+    font-size: 0.4rem;
+    background-color:#fff;
+    cursor: pointer;
+}
+
+.index .form .form-group3{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    background-color: #ffffff;
+    margin-top: 0.27rem;
+    border-bottom: 0.02rem solid #d9d9d9;
+    font-size: 0.38rem;
+    color: #5a5a5a;
+    line-height: 1.6rem;
+}
+
+.index .form .form-group4{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    background-color: #ffffff;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
+.index .form .hoteltop{
+    margin-top: 0.27rem;
+}
+
+.index .form .form-groupnamex{
+    display: inline-block;
+    width: 2.4rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    font-size: 0.43rem;
+    color: #333333;
+    font-weight: 400;
+}
+.index .form .form-group4 input{
+    width: 6rem;
+    line-height: 1.5rem;
+    color: #5a5a5a;
+    font-size: 0.43rem;
+
+}
+
+
+
+
+
+/*支付弹出模态框*/
+.index .form .cd-section{
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    padding-left: 0.94rem;
+    background-color: #ffffff;
+}
+
+.index .form .cd-section .money1{
+    font-size: 0.38rem;
+    color: #333333;
+}
+.index .form .cd-section .money2{
+    font-size: 0.48rem;
+    color: #f57d02;
+}
+/*.index .form .cd-section .setup{
+    float: right;
+    display: inline-block;
+    width: 3.47rem;
+    height: 1.6rem;
+    text-align: center;
+    font-size: 0.43rem;
+    background-color: #f57d02;
+    color: #ffffff;
+    font-weight: bold;
+}*/
+
+/*模态框效果*/
+/*.cd-section {
+    padding: 2em;
+    margin-top: 5em;
+    text-align: center;
+}*/
+
+.cd-bouncy-nav-trigger {
+    float: right;
+    display: inline-block;
+    width: 3.47rem;
+    height: 1.6rem;
+    text-align: center;
+    font-size: 0.43rem;
+    background-color: #f57d02;
+    color: #ffffff;
+    font-weight: bold;
+}
+.no-touch .cd-bouncy-nav-trigger:hover {
+    background: #e0a36f;
+}
+
+.cd-bouncy-nav-modal {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 35, 37, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s 0.6s, visibility 0s 0.9s;
+    -moz-transition: opacity 0.3s 0.6s, visibility 0s 0.9s;
+    transition: opacity 0.3s 0.6s, visibility 0s 0.9s;
+}
+.cd-bouncy-nav-modal.fade-in {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 0.1s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.1s 0s, visibility 0s 0s;
+    transition: opacity 0.1s 0s, visibility 0s 0s;
+}
+
+@media only screen and (min-width: 1170px) {
+    .cd-bouncy-nav-modal .cd-close {
+        top: 60px;
+    }
+}
+
+
+@-webkit-keyframes cd-move-in {
+    0% {
+        -webkit-transform: translateY(100vh);
+    }
+    65% {
+        -webkit-transform: translateY(-1.5vh);
+    }
+    100% {
+        -webkit-transform: translateY(0vh);
+    }
+}
+@-moz-keyframes cd-move-in {
+    0% {
+        -moz-transform: translateY(100vh);
+    }
+    65% {
+        -moz-transform: translateY(-1.5vh);
+    }
+    100% {
+        -moz-transform: translateY(0vh);
+    }
+}
+@keyframes cd-move-in {
+    0% {
+        -webkit-transform: translateY(100vh);
+        -moz-transform: translateY(100vh);
+        -ms-transform: translateY(100vh);
+        -o-transform: translateY(100vh);
+        transform: translateY(100vh);
+    }
+    65% {
+        -webkit-transform: translateY(-1.5vh);
+        -moz-transform: translateY(-1.5vh);
+        -ms-transform: translateY(-1.5vh);
+        -o-transform: translateY(-1.5vh);
+        transform: translateY(-1.5vh);
+    }
+    100% {
+        -webkit-transform: translateY(0vh);
+        -moz-transform: translateY(0vh);
+        -ms-transform: translateY(0vh);
+        -o-transform: translateY(0vh);
+        transform: translateY(0vh);
+    }
+}
+@-webkit-keyframes cd-move-out {
+    0% {
+        -webkit-transform: translateY(0vh);
+    }
+    100% {
+        -webkit-transform: translateY(-100vh);
+    }
+}
+@-moz-keyframes cd-move-out {
+    0% {
+        -moz-transform: translateY(0vh);
+    }
+    100% {
+        -moz-transform: translateY(-100vh);
+    }
+}
+@keyframes cd-move-out {
+    0% {
+        -webkit-transform: translateY(0vh);
+        -moz-transform: translateY(0vh);
+        -ms-transform: translateY(0vh);
+        -o-transform: translateY(0vh);
+        transform: translateY(0vh);
+    }
+    100% {
+        -webkit-transform: translateY(-100vh);
+        -moz-transform: translateY(-100vh);
+        -ms-transform: translateY(-100vh);
+        -o-transform: translateY(-100vh);
+        transform: translateY(-100vh);
+    }
+}
+
+
+
+/*支付*/
+.index  .buy {
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    height: 11.6rem;
+   /* padding-left: 0.19rem;
+    padding-right: 0.19rem;*/
+    background-color: #ffffff;
+    z-index: 1111;
+}
+.index  .close{
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.6rem;
+
+
+}
+
+.index  .buy .buy-title{
+    height: 1.34rem;
+    width: 10rem;
+    line-height: 1.34rem;
+    font-size: 0.43rem;
+    color: #333333;
+    background-color: #f2f2f2;
+    text-align: center;
+    border-bottom: 0.02rem solid #bfbfbf;
+}
+.index  .buy .buy-cheng p{
+    height: 1.34rem;
+    width: 10rem;
+    line-height: 1.34rem;
+    font-size: 0.43rem;
+    color: #333333;
+    padding-left: 0.67rem;
+    border-bottom: 0.02rem solid #bfbfbf;
+
+
+}
+.index  .buy .buy-cheng .buyx{
+    height: 1.6rem;
+    width: 10rem;
+
+    font-size: 0.38rem;
+    color: #333333;
+    padding-left: 1.34rem;
+    padding-right: 0.67rem;
+    border-bottom: 0.02rem solid #bfbfbf;
+}
+
+.index  .buy .buy-cheng .buyx img{
+    float: left;
+    display: inline-block;
+    width: 0.51rem;
+    height: 0.51rem;
+    margin-top: 0.54rem;
+}
+.index  .buy .buy-cheng .buyx .pay{
+    float: left;
+    font-size: 0.38rem;
+    margin-left: 0.22rem;
+    line-height: 1.6rem;
+
+}
+.index  .buy .buy-cheng .buyx .buy-go{
+    float: right;
+    line-height: 1.6rem;
+    color: #5a5a5a;
+}
+.index  .buy .buy-money{
+    height: 1rem;
+    width:10rem;
+    line-height: 1rem;
+    font-size: 0.43rem;
+    color: #333333;
+    padding-left: 0.67rem;
+    padding-right: 0.34rem;
+    border-bottom: 0.02rem solid #bfbfbf;
+}
+.index  .buy .buy-money .buy-money1{
+    float: left;
+}
+.index  .buy .buy-money .buy-money2{
+    float: right;
+    font-weight: bold;
+    color: #ff9902;
+}
+
+
+/*特产支付*/
+
+.index .form .specialty-name{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    line-height: 1.6rem;
+    background-color: #ffffff;
+    font-size: 0.48rem;
+}
+
+.index .form .specialty-group1{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    margin-top: 0.27rem;
+    background-color: #ffffff;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
+.index .form .specialty-group2{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    margin-top: 0;
+    background-color: #ffffff;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
+
+.index .form .specialty-address{
+    width: 10rem;
+    height: 2.4rem;
+    padding-left: 0.94rem;
+    padding-top: 0.4rem;
+    background-color: #ffffff;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
+.index .form .specialty-address .form-groupnamex{
+    display: block;
+    float: left;
+    margin-top: 0;
+    line-height: 0.5rem;
+}
+.index .form .specialty-address .specialty-addressw{
+    width: 6rem;
+    height: 1.74rem;
+    line-height: 0.54rem;
+    color: #5a5a5a;
+    font-size: 0.43rem;
+}
+
+
+
+

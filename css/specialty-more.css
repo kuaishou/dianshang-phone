@@ -1,0 +1,118 @@
+/*特产详情*/
+
+.index .scenery-address .scenery-addressx .address .specialty-price{
+    float: right;
+    margin-right: 0.8rem;
+}
+
+
+.index .navbar .specialty-nav{
+    float: left;
+    width: 5rem;
+    height: 1.07rem;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-default .navbar-nav > .specialty-nav > a {
+    display: inline-block;
+    float: left;
+    width: 4.99rem;
+    height: 1.07rem;
+    padding: 0;
+    font-size: 0.35rem;
+    line-height: 1.07rem;
+    text-align: center;
+    color: #ffffff;
+}
+/*产品参数*/
+.index  .yuzhimore{
+    padding-right: 0;
+    padding-left: 0;
+}
+.index  .yuzhimore .specialty-news{
+    width: 10rem;
+    height: 2.27rem;
+    padding-left: 0.54rem;
+    border-top: 0.02rem solid #f2f2f2;
+    border-bottom: 0.02rem solid #f2f2f2;
+    font-size: 0.35rem;
+    line-height: 0.62rem;
+}
+.yuzhimore .specialty-news .specialty-news1{
+    width: 4.46rem;
+    float: left;
+}
+.yuzhimore .specialty-news .specialty-news1 .specialty-news1s{
+    width: 4.46rem;
+}
+.yuzhimore .specialty-news .specialty-news1 .specialty-news1s1{
+    display: inline-block;
+    width: 1.8rem;
+
+}
+.yuzhimore .specialty-news .specialty-news1 .specialty-news1s2{
+    display: inline-block;
+    width: 2.54rem;
+}
+.yuzhimore .specialty-news .specialty-news2{
+    width: 5rem;
+    float: left;
+    padding-left: 0.54rem;
+}
+.index .yuzhimore .specialty-pinglunimg{
+    width: 10rem;
+}
+.index .yuzhimore .specialty-pinglunimg img{
+    width: 10rem;
+}
+
+/*固定底部提交单*/
+.index .cd-section{
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    height: 1.34rem;
+    line-height: 1.34rem;
+    padding-left: 0.94rem;
+    background-color: #ffffff;
+}
+
+.index .cd-section .money1{
+    font-size: 0.38rem;
+    color: #333333;
+}
+.index .cd-section .money2{
+    font-size: 0.48rem;
+    color: #f57d02;
+}
+.index .cd-section .money3{
+    margin-left: 0.4rem;
+    font-size: 0.32rem;
+    color: #333333;
+}
+
+.cd-bouncy-nav-trigger {
+    float: right;
+    display: inline-block;
+    width: 3.47rem;
+    height: 1.34rem;
+    text-align: center;
+    font-size: 0.43rem;
+    background-color: #f57d02;
+    color: #ffffff;
+    font-weight: bold;
+}
+.no-touch .cd-bouncy-nav-trigger:hover {
+    background: #e0a36f;
+}
+
+
+
+

@@ -1,0 +1,361 @@
+
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+}
+
+
+.index .guide-header{
+    width: 10rem;
+    height: 5.07rem;
+    background: url(../images/guidebg.jpg) center no-repeat;
+    background-size: 10rem 5.07rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.index .guide-header img{
+    display: block;
+    width: 2.51rem;
+    height: 2.51rem;
+    margin:  auto;
+    border-radius: 2rem;
+
+}
+.index .guide-header p{
+    font-size: 0.48rem;
+    color: #ffffff;
+    margin-top: 0.6rem;
+}
+
+.index .guidernews{
+    width: 10rem;
+    height: 1.6rem;
+    padding-top: 0.2rem;
+    background-color: #97b7d2;
+    color: #ffffff;
+    font-size: 0.37rem;
+}
+.index .guidernews .guidernewsl{
+    float: left;
+    text-align: center;
+    height: 1.2rem;
+    width: 3rem;
+    padding-top: 0.1rem;
+
+}
+.index .guidernews .guidernewsm{
+    width: 4rem;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+.index .guidernews .guidernewsl .nub{
+
+    line-height: 0.67rem;
+}
+/*价格*/
+.index .guide-price{
+    width: 10rem;
+    height: 1.33rem;
+    line-height: 1.33rem;
+    background-color: #ffffff;
+    padding-left: 0.6rem;
+    padding-right: 0.84rem;
+    margin-bottom: 0.27rem;
+
+}
+.index .guide-price .guide-price1{
+    float: left;
+    font-size: 0.35rem;
+    color: #333333;
+    font-weight: 600;
+
+}
+.index .guide-price .guide-price2{
+    float: right;
+    font-size: 0.48rem;
+    color: #f57d02;
+    font-weight: 600;
+}
+
+
+/*导航*/
+.index .navbar{
+    width: 10rem;
+    background-color: #1e9fe1;
+    height: 1.07rem;
+    color: #ffffff;
+    min-height: 0;
+    margin-bottom: 0;
+    border: 0px solid transparent;
+}
+.index .navbar .container-fluid {
+    width: 10rem;
+    height: 1.07rem;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.index .navbar .container-fluid .navbar-collapse {
+    width: 10rem;
+    height: 1.07rem;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+}
+
+.index .navbar li{
+    float: left;
+    width: 3.33rem;
+    height: 1.07rem;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    display: inline-block;
+    float: left;
+    width: 3.33rem;
+    height: 1.07rem;
+    padding: 0;
+    font-size: 0.35rem;
+    line-height: 1.07rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    height: 1.07rem;
+    background-color: #1e9fe1;
+    border-bottom: 0.08rem solid #f57d02;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.index .guide-cont h4{
+    width: 10rem;
+    height: 0.93rem;
+    line-height: 0.93rem;
+    padding-left: 0.53rem;
+    font-size: 0.35rem;
+    color: #333333;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-bottom: 2px solid #f2f2f2;
+    margin: 0;
+    margin-top: 0.27rem;
+
+}
+
+/*预约时间*/
+.index .guide-time{
+    width: 10rem;
+    height: 2.53rem;
+    background-color: #ffffff;
+}
+.index .guide-time .guide-input{
+    float: left;
+    width: 7.7rem;
+    padding-left: 1.34rem;
+    padding-top: 0.35rem;
+}
+.index .guide-time .guide-input .guide-time1{
+    height: 1rem;
+    line-height: 1rem;
+
+}
+.index .guide-time .guide-input .guide-time1 label{
+    font-size: 0.35rem;
+    color: #5a5a5a;
+    font-weight: 400;
+    margin: 0;
+    margin-right: 0.22rem;
+}
+.index .guide-time .guide-input .guide-time1 input {
+    width: 4rem;
+    height: 0.67rem;
+    border: 1px solid #b8b8b8;
+    font-size: 0.48rem;
+    color: #f57d02;
+    font-weight: 400;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+
+.index .guide-time .guide-day{
+    float: left;
+    width: 2.3rem;
+    line-height: 2.53rem;
+    font-size: 0.35rem;
+    color: #5a5a5a;
+    font-weight: 600;
+}
+
+
+/*导游介绍*/
+.index .present{
+    width: 10rem;
+    padding: 0.13rem 0.7rem 0.53rem 0.53rem;
+    padding-left:0.53rem;
+    padding-right:0.7rem;
+    background-color: #ffffff;
+
+}
+.index .present p{
+    color: #5a5a5a;
+    line-height: 0.53rem;
+    font-size: 0.35rem;
+
+}
+
+.index .yuzhimore {
+
+}
+.index .yuzhimore  p{
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
+}
+
+.index .yuzhimore .peitao{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+    border-left: 0.04rem solid #ededed;
+}
+.index .yuzhimore .peitao span{
+    display: inline-block;
+    width: 1.74rem;
+    text-align:right ;
+}
+
+
+
+
+
+
+/*评论*/
+
+.pinglun{
+    padding-left:0.54rem;
+    padding-right:0.54rem;
+    background-color: #ffffff;
+}
+.pinglun .pingluntitle{
+    height: 1.07rem;
+    line-height: 1.07rem;
+    font-size: 0.35rem;
+
+}
+
+.pinglun .pingluntitle .pingluntitle1{
+    float: left;
+    width: 4.87rem;
+
+}
+.pinglun .pingluntitle .pingluntitle1 img{
+    height: 0.44rem;
+    width: 0.44rem;
+}
+
+.pinglun .pingluntitle .pingluntitle2{
+    float: left;
+
+}
+.pinglun .pingluncont{
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
+}
+.pinglun .pingluncon-time{
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
+    margin-left: 0.4rem;
+}
+.index .pinglun .pinglunimg{
+    padding-left: 0.27rem;
+}
+.index .pinglun .pinglunimg img{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+.index .pinglun .pinglun-add{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+    padding-left: 0.8rem;
+    border-top: 0.04rem dashed #f2f2f2 ;
+}
+.index .pinglun .pinglun-addback{
+    height: 1.07rem;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+    border-top: 0.04rem dashed #f2f2f2;
+}
+.index .pinglun p{
+    margin: 0;
+}
+
+
+/*固定底部提交单*/
+.index .cd-section{
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    height: 1.34rem;
+    line-height: 1.34rem;
+    padding-left: 0.94rem;
+    background-color: #ffffff;
+}
+
+.index .cd-section .money1{
+    font-size: 0.38rem;
+    color: #333333;
+}
+.index .cd-section .money2{
+    font-size: 0.48rem;
+    color: #f57d02;
+}
+.index .cd-section .money3{
+    margin-left: 0.4rem;
+    font-size: 0.32rem;
+    color: #333333;
+}
+
+.cd-bouncy-nav-trigger {
+    float: right;
+    display: inline-block;
+    width: 3.47rem;
+    height: 1.34rem;
+    text-align: center;
+    font-size: 0.43rem;
+    background-color: #f57d02;
+    color: #ffffff;
+    font-weight: bold;
+}
+.no-touch .cd-bouncy-nav-trigger:hover {
+    background: #e0a36f;
+}
+
+
+
+
+
+
+
