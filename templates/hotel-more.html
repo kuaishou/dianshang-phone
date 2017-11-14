@@ -273,13 +273,13 @@
 
         });
 
-        /*获取当前日期*/
-
+/*时间初始化*/
         var ddd = new Date();
         var day =ddd.getDate();
         var day1=ddd.getDate()+1;
+        var month =ddd.getMonth()+1;
         if(ddd.getMonth()<10){
-            var month = ""+(ddd.getMonth()+1);
+            month = "0"+(ddd.getMonth()+1);
         }
 
         if(ddd.getDate()<10){

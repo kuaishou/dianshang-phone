@@ -1,0 +1,219 @@
+/*美食页面*/
+.index .scenery-boday .foodr{
+    width: 6rem;
+    height: 2.48rem;
+    float: left;
+    padding-left: 0.4rem;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+.index .scenery-boday .scenery-bodayr .foodx{
+    border-top:none;
+}
+.index .foot{
+    width: 10rem;
+    height: 4.27rem;
+    padding-top: 0.5rem;
+    margin-top: 0;
+    border-top: 1px solid #f1f1f1;
+}
+
+.pricems{
+    width: 6rem;
+    float: right;
+    padding-left: 0.4rem;
+    padding-top: 0.2rem;
+    text-align: left;
+}
+.pricems p{
+    font-size: 0.32rem;
+    color: #5a5a5a;
+
+}
+.pricems p .yellow{
+    display: inline-block;
+    width: 0.4rem;
+    color: #f77d00;
+}
+.pricems p .blue{
+    display: inline-block;
+    width: 0.4rem;
+    color: #007ec3;
+}
+
+/*详情页面*/
+
+.index .navbar .food-nav{
+    float: left;
+    width: 3.33rem;
+    height: 1.07rem;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-default .navbar-nav > .food-nav > a {
+    display: inline-block;
+    float: left;
+    width: 3.33rem;
+    height: 1.07rem;
+    padding: 0;
+    font-size: 0.35rem;
+    line-height: 1.07rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.food-time{
+    font-size: 0.32rem;
+}
+
+.index .menpiaobox .menpiaoboxr .food-next{
+    display: inline-block;
+    width: 1.6rem;
+    height: 2.13rem;
+    background-color: transparent;
+    text-align: center;
+    line-height: 2.13rem;
+    color: #000;
+    font-size: 0.38rem;
+    font-weight: bold;
+    border-radius: 0.06rem;
+    margin-top: 0;
+}
+
+.yuzhimore .food-img{
+    width: 10rem;
+    margin-bottom: 0.4rem;
+}
+
+.index .meishi{
+    padding-left: 0.54rem;
+    padding-right: 0.54rem;
+}
+
+
+.meishi p{
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
+
+}
+.meishi .food-title{
+    color: #f67c01;
+}
+.food-cont{
+}
+.food-cont .cont-title{
+    width: 10rem;
+    height: 0.8rem;
+    background-color: #f2f2f2;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    font-weight: 500;
+}
+.food-cont .cont-title span{
+    display: inline-block;
+}
+.food-cont .cont-title .cont-title1{
+    width: 5.33rem;
+}
+.food-cont .cont-title .cont-title2{
+    width: 2.33rem;
+}
+.food-cont .cont-title .cont-title3{
+    width: 1.6rem;
+    text-align: center;
+}
+
+.food-cont  .cont-body{
+    width: 10rem;
+    font-size: 0.32rem;
+    border-top:1px solid #eaeaea;
+    border-bottom:1px solid #eaeaea;
+    text-align:center;
+    display:table;
+
+}
+
+.food-cont  .cont-body .cont-bodyl{
+    display: inline-block;
+    width: 2.85rem;
+    font-weight: 500;
+    text-align: center;
+
+    display:table-cell;
+    vertical-align:middle;
+}
+.food-cont  .cont-body .cont-bodyl .cont-bodylw{
+    line-height:1.8;
+
+
+}
+
+.food-cont  .cont-body .cont-bodyr{
+    display: inline-block;
+    width: 7.05rem;
+}
+
+.food-cont  .cont-body .cont-bodyr .cont-bodyrs{
+
+    width: 7.05rem;
+    line-height: 0.67rem;
+    border-bottom: 1px solid #eaeaea;
+    border-left:1px solid #eaeaea ;
+    text-align: left;
+}
+.food-cont  .cont-body .cont-bodyr .cont-bodyrs span{
+    display: inline-block;
+}
+.food-cont  .cont-body .cont-bodyr .cont-bodyrs .cont-bodyrs1{
+    width: 2.8rem;
+    padding-left: 0.2rem;
+}
+.food-cont  .cont-body .cont-bodyr .cont-bodyrs .cont-bodyrs2{
+    width: 2.5rem;
+}
+
+/*固定底部提交单*/
+.index .cd-section{
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    height: 1.34rem;
+    line-height: 1.34rem;
+    padding-left: 0.94rem;
+    background-color: #ffffff;
+}
+
+.index .cd-section .money1{
+    font-size: 0.38rem;
+    color: #333333;
+}
+.index .cd-section .money2{
+    font-size: 0.48rem;
+    color: #f57d02;
+}
+
+
+.cd-bouncy-nav-trigger {
+    float: right;
+    display: inline-block;
+    width: 3.47rem;
+    height: 1.34rem;
+    text-align: center;
+    font-size: 0.43rem;
+    background-color: #f57d02;
+    color: #ffffff;
+    font-weight: bold;
+}
+.no-touch .cd-bouncy-nav-trigger:hover {
+    background: #e0a36f;
+}
+
+

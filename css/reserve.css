@@ -530,6 +530,18 @@
     font-size: 0.43rem;
 }
 
+/*√¿ ≥*/
+.foodrexerven{
+    margin-top: 0.27rem;
+}
+.index .form .form-group1 .foodprices{
+    display: inline-block;
+    font-size: 0.48rem;
+    color: #F57D02;
+}
+.index .form .form-group1 .foodprices span{
+    font-size: 0.27rem;
+}
 
 
 

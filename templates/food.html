@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>吉首旅游-美食列表</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/hotel.css"/>
+    <link rel="stylesheet" href="../css/food.css"/>
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="index">
+    <header class="topBar clearfix">
+        <a href="../index.html" class="icon_back"><</a>
+        <p class="top-title">美食列表</p>
+    </header>
+
+
+    <!--景区-->
+    <div class="scenery clearfix">
+        <div class="scenery-top">
+            <p class="scenery-title2">默认排序</p>
+            <p class="scenery-title2 score">评分<span class="glyphicon glyphicon-arrow-down"></span></p>
+            <p class="scenery-title2 price">价格<span class="glyphicon glyphicon-arrow-down"></span></p>
+        </div>
+
+        <div class="scenery-boday foot">
+            <a href="hotel-more.html">
+                <div class="scenery-bodayl">
+                    <img src="../images/food1.jpg" alt="饭店图"/>
+                </div>
+                <div class="scenery-bodayr  foodr">
+                    <div class="clearfix scenery-wordx foodx">
+                        <p class="scenery-word1">吉首大酒店</p>
+                    </div>
+                    <p class="scenery-word2">人均：¥188</p>
+                    <p class="word4-left"><span class="word4-left1">用户评分:</span><span class="word4-left2">4.8</span><span class="word4-left3">/5</span></p>
+                </div>
+                <div class="pricems">
+                    <p><span class="yellow">●</span><span>每买100减12</span></p>
+                    <p><span class="blue">●</span><span>双人餐288；三人餐388</span></p>
+                </div>
+            </a>
+        </div>
+
+        <div class="scenery-boday foot">
+            <a href="hotel-more.html">
+                <div class="scenery-bodayl">
+                    <img src="../images/food2.jpg" alt="饭店图"/>
+                </div>
+                <div class="scenery-bodayr  foodr">
+                    <div class="clearfix scenery-wordx foodx">
+                        <p class="scenery-word1">吉首大酒店</p>
+                    </div>
+                    <p class="scenery-word2">人均：¥188</p>
+                    <p class="word4-left"><span class="word4-left1">用户评分:</span><span class="word4-left2">4.8</span><span class="word4-left3">/5</span></p>
+                </div>
+                <div class="pricems">
+                    <p><span class="yellow">●</span><span>每买100减12</span></p>
+                    <p><span class="blue">●</span><span>双人餐288；三人餐388</span></p>
+                </div>
+            </a>
+        </div>
+
+        <div class="scenery-boday foot">
+            <a href="hotel-more.html">
+                <div class="scenery-bodayl">
+                    <img src="../images/food3.jpg" alt="饭店图"/>
+                </div>
+                <div class="scenery-bodayr  foodr">
+                    <div class="clearfix scenery-wordx foodx">
+                        <p class="scenery-word1">吉首大酒店</p>
+                    </div>
+                    <p class="scenery-word2">人均：¥188</p>
+                    <p class="word4-left"><span class="word4-left1">用户评分:</span><span class="word4-left2">4.8</span><span class="word4-left3">/5</span></p>
+                </div>
+                <div class="pricems">
+                    <p><span class="yellow">●</span><span>每买100减12</span></p>
+                    <p><span class="blue">●</span><span>双人餐288；三人餐388</span></p>
+                </div>
+            </a>
+        </div>
+
+
+
+    </div>
+
+
+    <footer class="footer">
+        <ul>
+            <li><a href="../index.html"><img src="../images/home.jpg" alt="首页"/><p>首页</p></a></li>
+            <li><a href="my-order.html"><img src="../images/list-click.jpg" alt="首页"/><p>订单</p></a></li>
+            <li><a href="../index.html"><img src="../images/service.jpg" alt="首页"/><p>客服</p></a></li>
+            <li><a href="my.html"><img src="../images/my.jpg" alt="首页"/><p>我的</p></a></li>
+        </ul>
+    </footer>
+
+
+
+
+</div>
+<!--头部区域-->
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/index.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".scenery-title2").eq(
+                $(".scenery-title2").on('click', function () {
+                    if ($(this).find('span').hasClass("glyphicon-arrow-down")) {
+                        $(this).find('span').addClass("glyphicon-arrow-up");
+                        $(this).find('span').removeClass("glyphicon-arrow-down");
+                        $('#disOrderId').val(2);
+                        //正序排列
+                    } else {
+                        $(this).find('span').addClass("glyphicon-arrow-down");
+                        $(this).find('span').removeClass("glyphicon-arrow-up");
+                        $('#disOrderId').val(1);
+                    }
+                })
+        );
+    });
+
+
+
+</script>
+</body>
+</html>

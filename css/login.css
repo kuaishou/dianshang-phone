@@ -90,6 +90,26 @@
     border-bottom: 2px solid #a5a5a5;
 
 }
+
+
+.telrong{
+    width: 8.4rem;
+    font-size: 0.35rem;
+    line-height: 0.66rem;
+    text-align: justify;
+    margin-top: 0.2rem;
+    color: #5a5a5a;
+}
+.telrongx{
+    width: 8.4rem;
+    font-size: 0.35rem;
+    line-height: 0.66rem;
+    text-align: justify;
+    margin-top: 0.2rem;
+    color: #fa0015;
+}
+
+
 .index .tab-content .login-user label{
     float: left;
     width: 1.6rem;
@@ -135,13 +155,6 @@
     font-size: 0.37rem;
     border: none;
     margin-top: 0.56rem;
-    /*float: left;
-    width: 4rem;
-    height: 0.8rem;
-    line-height: 0.8rem;
-    font-size: 0.37rem;
-    background-color: #ffffff;
-    color: #1e9fe1;*/
 }
 /*’“ªÿ√‹¬Î*/
 .index .backp{

@@ -268,14 +268,14 @@
     font-weight: bold;
     color: #333333;
 }
-.index .yuzhimore {
-    padding-left:0.54rem;
-    padding-right:0.54rem;
+.index .yuzhimore{
 }
 .index .yuzhimore  p{
     color: #333333;
     line-height: 0.62rem;
     font-size: 0.35rem;
+    margin-left:0.54rem;
+    margin-right:0.54rem;
 }
 
 .index .yuzhimore .peitao{
