@@ -34,7 +34,7 @@
     background-color: #d5d8df;
     color: #000;
     margin: 0;
-    height: auto;
+    height: 10rem;
     width: 100%;
     position: absolute;
     left: 0;
@@ -86,8 +86,8 @@
 }
 
 .area_roll>div {
-    font-size: 1.6em;
-    height: 10em;
+    font-size: 2.6em;
+    height: 30em;
     float: left;
     background-color: transparent;
     position: relative;
@@ -130,7 +130,7 @@
 
 .area_btn {
     color: #0575f2;
-    font-size: 1.6em;
+    font-size: 2.6em;
     line-height: 1em;
     text-align: center;
     padding: .8em 1em
