@@ -44,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LArea.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LArea.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/address/LArea.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47433037">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="address.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/address.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="170" column="18" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.35825893">
+              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,10 +187,10 @@
         <option value="$PROJECT_DIR$/lib/address/SG_area_select.js" />
         <option value="$PROJECT_DIR$/../../../../../模块/jquery省市区移动端联动/17421503645075496 (2)/87401/index.html" />
         <option value="$PROJECT_DIR$/lib/address/city.js" />
-        <option value="$PROJECT_DIR$/css/address.css" />
         <option value="$PROJECT_DIR$/../../../../../模块/jquery省市区移动端联动/H5/index.html" />
         <option value="$PROJECT_DIR$/templates/modify-address.html" />
         <option value="$PROJECT_DIR$/lib/address/LArea.css" />
+        <option value="$PROJECT_DIR$/css/address.css" />
       </list>
     </option>
   </component>
@@ -731,18 +731,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/address.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="170" column="18" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../模块/jquery省市区移动端联动/jquerySengshild/jquery-weui.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="31880" selection-start-line="0" selection-start-column="31880" selection-end-line="0" selection-end-column="31880" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/address/LArea.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -755,10 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/address/LArea.css">
+    <entry file="file://$PROJECT_DIR$/css/address.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47433037">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.35825893">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding />
         </state>
       </provider>
