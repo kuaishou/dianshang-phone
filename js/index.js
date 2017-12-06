@@ -143,3 +143,41 @@ for(var i=0;i<jia.length;i++){
     };
 }
 
+
+apiready = function(){
+    //双击退出APP
+    exit_app();
+}
+
+
+function exit_app() {
+    api.addEventListener({
+        name : 'keyback'
+    }, function(ret, err) {
+        api.toast({
+            msg: '再按一次返回键退出'+api.appName,
+            duration: 2000,
+            location: 'bottom'
+        });
+        api.addEventListener({
+            name : 'keyback'
+        }, function(ret, err) {
+            api.closeWidget({
+                id : 'A6067553474504',  //你的APPid
+                retData : {
+                    name : 'closeWidget'
+                },
+                animation : {
+                    type : 'flip',
+                    subType : 'from_bottom',
+                    duration : 500
+                },
+                silent : true
+            });
+        });
+        setTimeout(function() {
+            exit_app();
+        }, 3000);
+    });
+}
+

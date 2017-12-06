@@ -51,6 +51,17 @@
     font-size: 0.37rem;
 
 }
+.index .address-name .add .moren{
+    float: left;
+    width: 3rem;
+    text-align: left;
+
+}
+.index .address-name .add .moren input{
+    margin-right: 0.1rem;
+    float: left;
+    margin-top: 0.45rem;
+}
 /*É¾³ý°´Å¥Ä£Ì¬¿ò*/
 
 .index .address-name  .modal{

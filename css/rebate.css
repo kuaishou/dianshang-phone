@@ -1,0 +1,102 @@
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+    font-family: "Microsoft Yahei";
+}
+.index .topBar {
+    background-color: #f2f2f2;
+    color: #5a5a5a;
+}
+
+.topBar .icon_back {
+    color: #5a5a5a;
+}
+.banner img{
+    width: 10rem;
+    height: 5.33rem;
+
+}
+
+.rebate{
+margin-bottom: 2rem;
+}
+
+.rebate .title-word{
+    width: 10rem;
+    height: 1.33rem;
+    margin: 0;
+    margin-top: 0.33rem;
+    background-color: #ffffff;
+    line-height: 1.33rem;
+    font-size: 0.43rem;
+    color: #5a5a5a;
+}
+.rebate .title-word .line{
+    height: 0.4rem;
+    margin-right: 0.3rem;
+    margin-left: 0.4rem;
+    border: 0.06rem solid #f57d02;
+    border-radius: 1rem;
+    color: #f57d02;
+    background-color: #f57d02;
+}
+
+.rebate .rebate-a{
+    margin-top: 0.02rem;
+    width: 10rem;
+    padding-top: 0.53rem;
+    padding-bottom: 0.53rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+.rebate .rebate-a .cd-bouncy-nav-trigger{
+    display: inline-block;
+    width: 9.2rem;
+    height: 1.07rem;
+    margin: 0 auto;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 0.48rem;
+    line-height: 1.07rem;
+    background-color: #f57d02;
+    color: #ffffff;
+}
+
+.rebate-people{
+    float: left;
+    width: 5rem;
+    text-align: center;
+    font-size: 0.53rem;
+}
+
+.rebate-people .people-nub{
+    color: #f57d02;
+    line-height: 1rem;
+    
+}
+.rebate-people .peopl{
+    color: #5b5b5b;
+}
+
+.rebate-gz{
+    margin-top: 0.02rem;
+    width: 10rem;
+    padding:0.53rem 0.59rem;
+    background-color: #ffffff;
+    font-size: 0.35rem;
+    color: #5a5a5a;
+    line-height: 0.7rem;
+}
+
+.cd-bouncy-nav  li img{
+    width: 1.64rem;
+    height: 1.64rem;
+
+}
+.cd-bouncy-nav  li p{
+   font-size: 0.42rem;
+    line-height: 0.67rem;
+
+}

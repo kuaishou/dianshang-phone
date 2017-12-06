@@ -1,0 +1,68 @@
+
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+    font-family: "Microsoft Yahei";
+}
+
+.nav-tabs {
+    width: 10rem;
+    border-bottom: 0px solid #ddd;
+    background-color: #ffffff;
+}
+.nav-tabs > li {
+    width: 3.33rem;
+    height: 1.56rem;
+    line-height: 1.56rem;
+    font-size: 0.43rem;
+    text-align: center;
+
+    float: left;
+    margin-bottom: -1px;
+}
+.nav > li {
+    position: relative;
+    display: block;
+    background-color: #fff;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-bottom: 0.06rem solid #1e9fe1;
+}
+.nav-tabs > li > a {
+    margin-right: 0px;
+    line-height: 1.56rem;
+    border: 0px solid transparent;
+    border-radius:0;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 0;
+}
+a:visited {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+
+.tab-pane{
+    width: 10rem;
+}
+.coupon-img{
+    display:block;
+    width: 3.33rem;
+    height: 2.27rem;
+    margin: 1.68rem auto 1rem;
+}
+.coupon-title{
+    font-size: 0.45rem;
+    color: #5a5a5a;
+    text-align: center;
+}

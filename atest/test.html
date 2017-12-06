@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <![endif]-->
+
+</head>
+<body>
+
+
+<!--<input type="text" autofocus/>-->
+
+<!--
+<form action="">
+    <label for="age">年龄</label>
+    <input type="range" name="age" min="1" max="100" step="1"/>
+    <output onforminput="this.value=age.value">30</output>
+</form>
+-->
+<!--<form action="" &lt;!&ndash;novalidate="true"&ndash;&gt;>
+    <input type="url" name="user"/>
+    <input type="submit"/>
+</form>-->
+
+<!--表单数字验证-->
+<form action="" >
+    <!--三位数字-->
+    <input type="text" name="nub" pattern="[0-9]{3}"/>
+    <input type="submit"/>
+</form>
+
+<!--表单不能为空 required="required"-->
+<form action="" >
+    <!--三位数字-->
+    <input type="text" name="nub" required="required" pattern="[0-9]{3}"/>
+    <input type="submit"/>
+</form>
+
+
+
+</body>
+</html>

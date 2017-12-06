@@ -544,4 +544,13 @@
 }
 
 
-
+.index .form .adress-c{
+    display: block;
+    margin-top: 0.3rem;
+    color: #1b9ee2;
+}
+.index .form .adress-c .go{
+    color: #000;
+    float: right;
+    margin-right: 1rem;
+}

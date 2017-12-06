@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>邀请返利</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../lib/modal/reset.css"/>
+    <link rel="stylesheet" href="../lib/modal/style.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/rebate.css"/>
+
+</head>
+<body class="index">
+
+<header class="topBar clearfix">
+    <a href="../index.html" class="icon_back"><</a>
+    <p class="top-title">邀请有奖</p>
+</header>
+
+<div class="banner">
+    <img src="../images/yaoqing.jpg" alt="邀请返利"/>
+</div>
+<div class="rebate">
+    <div class="rebate-title">
+        <p class="title-word"> <span class="line"></span><span>我的专属邀请码</span></p>
+        <div class="rebate-a">
+
+            <div class="sucaihuo-container">
+                <section class="cd-section">
+                    <a class="cd-bouncy-nav-trigger" href="#0">发送我的专属邀请链接</a>
+                </section>
+
+                <div class="cd-bouncy-nav-modal">
+                    <nav>
+                        <p>--------分享--------</p>
+                        <ul class="cd-bouncy-nav">
+                            <li><a class="wechat" href="#" onclick="call('wechatFriend')">
+                                <img src="../images/wechat.png" alt=""/>
+                                <p>微信好友</p>
+                            </a></li>
+                            <li><a class="wf" href="#" onclick="call('wechatTimeline')">
+                                <img src="../images/wf.png" alt=""/>
+                                <p>微信朋友圈</p>
+                            </a></li>
+                            <li><a class="qq" href="#" onclick="call('qqFriend')">
+                                <img src="../images/qq.png" alt=""/>
+                                <p>QQ好友</p>
+                            </a></li>
+                            <li><a class="qq" href="#" onclick="call('qZone')">
+                                <img src="../images/qq.png" alt=""/>
+                                <p>QQ空间</p>
+                            </a></li>
+                            <li><a class="weibo" href="#" onclick="call('weibo')">
+                                <img src="../images/weibo.png" alt=""/>
+                                <p>新浪微博</p>
+                            </a></li>
+                            <li><a class="erweima" href="#">
+                                <img src="../images/erweima.png" alt=""/>
+                                <p>二维码分享</p>
+                            </a></li>
+                        </ul>
+                    </nav>
+                    <a href="#0" class="cd-close">X</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="rebate-title">
+        <p class="title-word"> <span class="line"></span><span>我的邀请</span></p>
+        <div class="rebate-a clearfix">
+            <div class="rebate-people">
+                <p class="people-nub">1人</p>
+                <p class="peopl">已邀请</p>
+            </div>
+            <div class="rebate-people">
+                <p class="people-nub">1人</p>
+                <p class="peopl">已邀请</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="rebate-title">
+        <p class="title-word"> <span class="line"></span><span>活动规则</span></p>
+        <div class="rebate-gz">
+            <ul>
+                <li>1、您每推荐一位好友注册，好友下单成功，您将获得好友订单金额的%5的现金奖励。</li>
+                <li>2、活动中如发现作弊手段获取奖励，将取消奖励。例如同一设备号注册等。</li>
+                <li>3、新规则对所有用户开放。</li>
+                <li>4、本网站拥有最终解释权</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<footer class="footer">
+    <ul>
+        <li><a href="../index.html"><img src="../images/home.jpg" alt="首页"/><p>首页</p></a></li>
+        <li><a href="my-order.html"><img src="../images/list-click.jpg" alt="首页"/><p>订单</p></a></li>
+        <li><a href="../index.html"><img src="../images/service.jpg" alt="首页"/><p>客服</p></a></li>
+        <li><a href="my.html"><img src="../images/my.jpg" alt="首页"/><p>我的</p></a></li>
+    </ul>
+</footer>
+
+
+
+<!--头部区域-->
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../lib/modal/modle.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/NativeShare.js"></script>
+<script>
+    var nativeShare = new NativeShare()
+    var shareData = {
+        title: 'NativeShare',
+        desc: 'NativeShare是一个整合了各大移动端浏览器调用原生分享的插件',
+        // 如果是微信该link的域名必须要在微信后台配置的安全域名之内的。
+        link: 'https://github.com/fa-ge/NativeShare',
+        icon: 'https://pic3.zhimg.com/v2-080267af84aa0e97c66d5f12e311c3d6_xl.jpg',
+        // 不要过于依赖以下两个回调，很多浏览器是不支持的
+        success: function() {
+            alert('success')
+        },
+        fail: function() {
+            alert('fail')
+        }
+    }
+    nativeShare.setShareData(shareData)
+
+    function call(command) {
+        try {
+            nativeShare.call(command)
+        } catch (err) {
+            // 如果不支持，你可以在这里做降级处理
+            alert(err.message)
+        }
+    }
+
+    function setTitle(title) {
+        nativeShare.setShareData({
+            title: title,
+        })
+    }
+</script>
+</body>
+</html>

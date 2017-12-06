@@ -23,6 +23,7 @@
     width: 1.71rem;
     height: 1.71rem;
     margin: 0 auto;
+    border-radius: 1.71rem;
 }
 
 .index .my-cont{
@@ -39,7 +40,7 @@
     font-size: 0.43rem;
     color: #5a5a5a;
     background-color: #ffffff;
-    border-bottom: 0.02rem solid #d9d9d9;
+    border-bottom: 0.03rem solid #d9d9d9;
 }
 .index .my-cont .my-cont1 a .go{
     float: right;
@@ -92,6 +93,21 @@
     margin-top: -0.5rem;
 }
 
+/*返利*/
+
+.index .my-cont .assets .assets-box li{
+    width: 3.33rem;
+}
+.index .my-cont .assets .assets-box a{
+    width: 3.33rem;
+}
+.index .my-cont .assets .assets-box li p{
+    margin-top: -0.2rem;
+}
+
+
+
+
 /*个人资料页面*/
 
 .indexdata{
@@ -141,8 +157,7 @@
 
 
 
-.imgbox,.imgbox1
-{
+.imgbox,.imgbox1 {
     float: left;
     position: relative;
     width: 1.33rem;
@@ -195,13 +210,25 @@
     color: #333333;
     margin: 0;
 }
+.index .tab-content .login-user1 label{
+    text-align: left;
+}
+
 .index .tab-content .login-user label img{
     height: 0.48rem;
     width: 0.48rem;
 }
 .index .tab-content .login-user input{
     margin-left: 0.8rem;
-    width: 7.rem;
+    width: 7rem;
+    height: 1.66rem;
+    float: left;
+    line-height: 1.6rem;
+    font-size: 0.48rem;
+}
+.index .tab-content .login-user .input1{
+    margin-left: 0.8rem;
+    width: 6rem;
     height: 1.66rem;
     float: left;
     line-height: 1.6rem;
