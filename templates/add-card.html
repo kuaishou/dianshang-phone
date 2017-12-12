@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>吉首旅游官网-添加银行卡</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/cash.css"/>
+
+</head>
+<body class="index">
+
+<header class="topBar clearfix">
+    <a href="../index.html" class="icon_back"><</a>
+    <p class="top-title">添加银行卡</p>
+</header>
+<div class="cash">
+
+    <div class="ti-money">
+        <form class="money-form" role="form">
+            <div class="form-cash">
+                <label for="lastname" class="cash-label">持卡人</label>
+                <input type="text" class="cash-input" id="lastname" placeholder="请输入持卡人姓名">
+
+            </div>
+            <div class="form-cash">
+                <label for="yinhang" class="cash-label">卡号</label>
+                <input type="text" class="cash-input" id="yinhang" placeholder="请输入收款银行卡号">
+
+            </div>
+            <div class="form-cash">
+                <label for="bank" class="cash-label">银行</label>
+
+                <input type="text" class="cash-input" id="bank" placeholder="请输入收款银行开户行">
+
+            </div>
+            <div class="form-cash">
+                <label for="telphone" class="cash-label">手机号</label>
+                <!--注意！！！此手机号是从后台获取的注册的手机号。用户不可输入不可编辑-->
+                <input type="text" class="cash-input" id="telphone" disabled='disabled' placeholder="18575699825"/>
+
+            </div>
+
+            <div class="form-cash">
+                <label for="telphone" class="cash-label">验证码</label>
+                <input type="text" class="ti-paswordin" id="firstin4" placeholder="动态密码">
+                <input type="button" class="ti-pasgo" id="btn" value="发送验证码" />
+            </div>
+
+            <div class="agree clearfix">
+                <input type="checkbox" class="agree-box" id="agree">
+                <label for="agree" class="agree-lab">同意安全协议并绑定</label>
+                <button type="submit" class="btn ti-ok bang-sub">提交绑定</button>
+            </div>
+
+
+
+
+
+        </form>
+    </div>
+
+
+
+</div>
+
+<footer class="footer">
+    <ul>
+        <li><a href="../index.html"><img src="../images/home.jpg" alt="首页"/><p>首页</p></a></li>
+        <li><a href="my-order.html"><img src="../images/list.jpg" alt="首页"/><p>订单</p></a></li>
+        <li><a href="../index.html"><img src="../images/service.jpg" alt="首页"/><p>客服</p></a></li>
+        <li><a href="my.html"><img src="../images/my-click.jpg" alt="首页"/><p>我的</p></a></li>
+    </ul>
+</footer>
+
+
+
+
+
+<!--头部区域-->
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/index.js"></script>
+<script>
+    $(function (){
+        $("[data-toggle='popover']").popover();
+    });
+
+    var countdown=60;
+    $("#btn").click(function(){
+        var obj = $("#btn");
+        settime(obj);
+    })
+
+    function settime(obj) { //发送验证码倒计时
+
+        if (countdown == 0) {
+            obj.attr('disabled',false);
+            //obj.removeattr("disabled");
+            obj.val("发送验证码");
+            countdown = 60;
+            return;
+        } else {
+            obj.attr('disabled',true);
+            obj.val("(" + countdown + ")秒后重新发送");
+            countdown--;
+        }
+        setTimeout(function() {
+                    settime(obj) }
+                ,1000)
+    }
+</script>
+
+
+
+
+</body>
+</html>

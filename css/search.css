@@ -1,0 +1,33 @@
+.search-input{
+    margin-top: 0.18rem;
+    margin-left: 2rem;
+    width: 6.67rem;
+    height: 0.67rem;
+    border-radius: 0.67rem;
+    padding-left: 1rem;
+    background-color: #2192cc;
+}
+.search-icon{
+    position: absolute;
+    top: 0.35rem;
+    left: 2.4rem;
+    color: #6bb8e6;
+}
+
+.index .foot {
+   padding-top: 0;
+
+}
+.index .scenery-boday .scenery-bodayr .scenery-word1 {
+    border-top: 1px solid #f1f1f1;
+    padding-top: 6px;
+    font-size: 0.43rem;
+    font-weight: 700;
+    color: #333333;
+    width: 100%;
+    line-height: 0.53rem;
+}
+.index .scenery-boday .foodr {
+     border-bottom: none;
+}
+

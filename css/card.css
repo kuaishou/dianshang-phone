@@ -1,0 +1,76 @@
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+}
+.card{
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.card .bank-card{
+    width: 9.33rem;
+    height: 2.87rem;
+    margin-top: 0.27rem;
+    border-radius: 0.1rem;
+    background-color: #c75056;
+}
+.card  .jianshe{
+    background-color: #296faa;
+}
+.card .bank-card .bank-logo{
+    float: left;
+    height: 2.87rem;
+    width: 1.47rem;
+    padding-left: 0.37rem;
+    padding-top: 0.37rem;
+}
+.card .bank-card .bank-logo img{
+    display: block;
+    width: 0.93rem;
+    height: 0.93rem;
+}
+.card .bank-card .bank-name{
+    float: left;
+    color: #ffffff;
+}
+.card .bank-card .bank-name .card-title{
+    font-size: 0.37rem;
+    margin-top: 0.37rem;
+}
+.card .bank-card .bank-name .card-lei{
+    font-size: 0.32rem;
+}
+.card .bank-card .bank-name .card-nub{
+    font-size: 0.67rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+.card .bank-card .bank-name .card-nub .star{
+    display: inline-block;
+    float: left;
+    height: 0.8rem;
+    padding-top: 0.15rem;
+}
+.adds-card{
+    display: block;
+    width: 4.4rem;
+    height: 1.2rem;
+    padding-left: 0.5rem;
+    line-height: 1.2rem;
+    margin-top: 0.3rem;
+    font-size: 0.43rem;
+}
+.adds-card .jia{
+    font-size: 1rem;
+}
+.adds-card .zheng{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0.4rem;
+}
+
+
+
+

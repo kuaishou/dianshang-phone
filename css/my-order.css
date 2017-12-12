@@ -1,4 +1,6 @@
-
+body{
+    background-color: #f2f2f2;
+}
 .index{
     width: 10rem;
     margin:0 auto;
@@ -178,7 +180,33 @@
     border: none;
 }
 
+.index .all-order{
+    width: 10rem;
+    height: 100%;
+   /* margin-bottom: 2rem;*/
+}
 
+.add-more{
+    display:block;
+    width: 2.67rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border: 2px solid #b5b5b5;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.37rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+}
+.all-order .add-more:visited{
+    background-color: #ffffff;
+}
+.all-order .add-more:visited { background-color: #ffffff;
+    color: #333333;}	/* 已访问的链接 */
+.all-order .add-more:hover { background-color: #ffffff;
+    color: #333333;}	/* 鼠标移动到链接上 */
+.all-order .add-more:active { background-color: #ffffff;
+    color: #333333;}	/* 选定的链接 */
 
 
 

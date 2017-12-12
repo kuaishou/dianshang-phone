@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>吉首旅游官网-提现</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/cash.css"/>
+
+</head>
+<body class="index">
+
+<header class="topBar clearfix">
+    <a href="../index.html" class="icon_back"><</a>
+    <p class="top-title">提现</p>
+</header>
+<div class="cash">
+
+    <div class="rebate">
+        <div class="rebatetitle clearfix"><span>您目前的余额：</span><span class="nub">88</span><span>元</span></div>
+
+        <p class="rebatetitleti">可提现金额：88元</p>
+    </div>
+    <div class="ti-money">
+        <form class="money-form" role="form">
+            <div class="form-cash">
+                <label for="firstname" class="cash-label">提现金额</label>
+                <input type="number" class="cash-input" id="firstname" placeholder="请输入提现金额">
+            </div>
+            <div class="form-cash">
+                <label for="lastname" class="cash-label">手续费</label>
+                    <span class="ti-sxf">0元</span>
+                    <button type="button" class="ti-tishi glyphicon glyphicon-question-sign"
+                            data-container="body" data-toggle="popover" data-placement="right"
+                            data-content="提现金额小于50元，将收取1元手续费；满50元不收取手续费">
+                    </button>
+            </div>
+            <div class="form-cash">
+                <label for="lastname" class="cash-label">收款人名称</label>
+                <input type="text" class="cash-input" id="lastname" placeholder="请输入收款人名称">
+
+            </div>
+
+            <div class="form-cash">
+                <label for="yinhang" class="cash-label">收款账号</label>
+                <input type="text" class="cash-input" id="yinhang" placeholder="请输入收款银行卡号">
+
+            </div>
+            <div class="form-cash">
+                <label for="bank" class="cash-label">开户行</label>
+
+                <input type="text" class="cash-input" id="bank" placeholder="请输入收款银行开户行">
+
+            </div>
+            <div class="form-cash">
+                <label for="telphone" class="cash-label">手机号</label>
+                <!--注意！！！此手机号是从后台获取的注册的手机号。用户不可输入不可编辑-->
+                <input type="text" class="cash-input" id="telphone" disabled='disabled' placeholder="18575699825"/>
+            </div>
+
+            <div class="form-cash">
+                        <label for="telphone" class="cash-label">验证码</label>
+                        <input type="text" class="ti-paswordin" id="firstin4" placeholder="动态密码">
+                        <input type="button" class="ti-pasgo" id="btn" value="发送验证码" />
+            </div>
+
+
+            <button type="submit" class="btn ti-ok">确认提现</button>
+
+        </form>
+    </div>
+
+
+
+</div>
+
+<footer class="footer">
+    <ul>
+        <li><a href="../index.html"><img src="../images/home.jpg" alt="首页"/><p>首页</p></a></li>
+        <li><a href="my-order.html"><img src="../images/list.jpg" alt="首页"/><p>订单</p></a></li>
+        <li><a href="../index.html"><img src="../images/service.jpg" alt="首页"/><p>客服</p></a></li>
+        <li><a href="my.html"><img src="../images/my-click.jpg" alt="首页"/><p>我的</p></a></li>
+    </ul>
+</footer>
+
+
+
+
+
+<!--头部区域-->
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/index.js"></script>
+<script>
+    $(function (){
+        $("[data-toggle='popover']").popover();
+    });
+
+    var countdown=60;
+    $("#btn").click(function(){
+        var obj = $("#btn");
+        settime(obj);
+    })
+
+    function settime(obj) { //发送验证码倒计时
+
+        if (countdown == 0) {
+            obj.attr('disabled',false);
+            //obj.removeattr("disabled");
+            obj.val("发送验证码");
+            countdown = 60;
+            return;
+        } else {
+            obj.attr('disabled',true);
+            obj.val("(" + countdown + ")秒后重新发送");
+            countdown--;
+        }
+        setTimeout(function() {
+                    settime(obj) }
+                ,1000)
+    }
+</script>
+
+
+
+
+</body>
+</html>

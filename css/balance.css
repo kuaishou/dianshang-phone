@@ -1,0 +1,179 @@
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+}
+.balance{
+
+}
+.balance .balance-m{
+    width: 10rem;
+    height: 3.73rem;
+    background-color: #1e9fe1;
+    text-align: center;
+    margin-top: 0.02rem;
+    margin-bottom: 0.02rem;
+    padding-top: 0.8rem;
+}
+.balance .balance-m .bal-tit{
+    font-size: 0.43rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.balance .balance-m .bal-nub{
+    font-size: 1.04rem;
+    color: #f57d02;
+    margin: 0;
+    line-height: 2.4rem;
+}
+.bank{}
+.line{
+    float: left;
+    width: 0.01rem;
+    height: 1.6rem;
+
+    border: 0.01rem solid #ffffff;
+}
+.bank .bank-in{
+
+    float: left;
+    width: 4.98rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    background-color: #1e9fe1;
+}
+.bank .bank-in a{
+    display: block;
+}
+.bank .bank-in img{
+    /*display: block;
+    float: left;
+    width: 0.53rem;
+    height: 0.29rem;
+    margin-left: ;*/
+    vertical-align: text-bottom;
+}
+.bank .bank-in span{
+    /*display: block;
+    float: left;*/
+    font-size: 0.37rem;
+    color: #ffffff;
+    line-height: 1.7rem;
+    margin-left: 0.08rem;
+}
+
+.balance .bill{
+    display: block;
+    width: 10rem;
+    height: 1.6rem;
+    margin-top: 0.27rem;
+    background-color: #ffffff;
+    padding-left: 0.53rem;
+    padding-right: 0.53rem;
+    padding-top: 0.53rem;
+    font-size: 0.43rem;
+    color: #333333;
+    
+}
+.balance .bill .bill-l{
+    float: left;
+}
+.balance .bill .bill-r{
+    float: right;
+    color: #b5b5b5;
+}
+
+.balance .explain{
+    display: block;
+    width: 10rem;
+    margin-top: 0.27rem;
+    background-color: #ffffff;
+    padding: 0.67rem 0.53rem;
+    font-size: 0.37rem;
+    color: #333333;
+
+}
+.balance .explain h4{
+    font-size: 0.37rem;
+}
+.balance .explain ul li{
+    line-height: 0.67rem;
+}
+
+.rebate{
+    width: 10rem;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 0.9rem;
+}
+.rebate .rebate-title{
+    margin: 0;
+    font-size: 0.43rem;
+}
+.rebate .rebate-money{
+    font-size: 1.04rem;
+    color: #f57d02;
+    margin: 0;
+    height: 2.8rem;
+    line-height: 2.8rem;
+}
+.rebate .rebate-go{
+    display: inline-block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    width: 3.5rem;
+    color: #1e9fe3;
+    font-size: 0.38rem;
+}
+/*返利明细*/
+.detailed{
+    width: 10rem;
+
+    margin-bottom: 2rem;
+}
+.detailed .table{
+    background-color: #ffffff;
+}
+.detailed .table > thead > tr > th {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    vertical-align: middle;
+    border-bottom: 2px solid #ddd;
+}
+.detailed  .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+     height: 1.2rem;
+     line-height: 1.2rem;
+     padding: 0px;
+     text-align: center;
+     line-height: 1.42857143;
+     vertical-align: middle;
+     border-top: 0px solid #ddd;
+    font-size: 0.37rem;
+}
+
+.detailed .table .add{
+    color: #f57d02;
+}
+.detailed .more{
+    display:block;
+    width: 2.67rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border: 2px solid #b5b5b5;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.37rem;
+    margin: 0 auto;
+}
+.detailed .more:visited{
+    background-color: #ffffff;
+}
+.detailed a:visited { background-color: #ffffff;
+    color: #333333;}	/* 已访问的链接 */
+.detailed a:hover { background-color: #ffffff;
+    color: #333333;}	/* 鼠标移动到链接上 */
+.detailed a:active { background-color: #ffffff;
+    color: #333333;}	/* 选定的链接 */

@@ -1,0 +1,110 @@
+.index{
+    width: 10rem;
+    margin:0 auto;
+    position: relative;
+    background-color: #f2f2f2;
+}
+.rebate{
+    padding: 0.6rem 1rem;
+    background-color: #1e9fe1;
+    font-size: 0.43rem;
+    color: #ffffff;
+}
+.rebate .rebatetitle span{
+    float: left;
+    line-height: 1.2rem;
+}
+.rebate .rebatetitle .nub{
+    font-size: 0.67rem;
+    color: #ff6600;
+}
+.ti-money{
+    width: 10rem;
+    margin-top: 0.27rem;
+    margin-bottom: 2rem;
+}
+.ti-money .form-cash{
+    width: 10rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    padding: 0 0.48rem;
+    border-bottom: 0.02rem solid #f2f2f2;
+    background-color: #ffffff;
+}
+.ti-money .form-cash .cash-label{
+    width: 2.5rem;
+    font-size: 0.43rem;
+    color: #333333;
+    margin-bottom: 0;
+}
+.ti-money .form-cash .cash-input{
+    width: 6rem;
+    line-height: normal;
+    font-size: 0.43rem;
+    color: #333333;
+    padding-left: 0.13rem;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.ti-money .form-cash .ti-paswordin{
+    width: 2.5rem;
+    line-height: normal;
+    font-size: 0.43rem;
+    color: #333333;
+    padding-left: 0.13rem;
+    overflow: hidden;
+
+}
+.ti-money .form-cash .ti-pasgo{
+    width: 3.8rem;
+    height: 0.67rem;
+    line-height: 0.67rem;
+    font-size: 0.43rem;
+    color: #ffffff;
+    background-color: #027dc3;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 4px;
+
+}
+.ti-money .ti-ok{
+    display: block;
+    width: 8.4rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin: 0.6rem auto;
+    padding: 0;
+    font-size: 0.48rem;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #f57d02;
+    color: #ffffff;
+
+}
+.ti-money .agree{
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 0.4rem;
+    padding-bottom: 0.5rem;
+}
+.ti-money .agree .agree-box{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 6px;
+    font-size: 0.37rem;
+}
+.ti-money .agree .agree-lab{
+    padding-left: 4px;
+    cursor: pointer;
+    margin: 0;
+    vertical-align: middle;
+    font-size: 0.37rem;
+    color: #5a5a5a;
+
+}
+.ti-money .agree .bang-sub{
+    height: 0.93rem;
+    line-height: 0.93rem;
+    background-color: #1e9fe1;
+
+}
